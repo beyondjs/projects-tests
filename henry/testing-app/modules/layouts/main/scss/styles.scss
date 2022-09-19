@@ -1,0 +1,27 @@
+@import '~template/sass/vars';
+
+.main-widget {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: white;
+  color: $beyond-gray-base-color;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 300px auto;
+  gap: 30px;
+}
+
+main {
+  margin-top: 30px;
+}
+
+header {
+  background: $beyond-gray-base-color;
+  color: white;
+  box-shadow: 0 5px 5px -5px #333;
+  padding: 1px 15px;
+  font-size: 20px;
+}

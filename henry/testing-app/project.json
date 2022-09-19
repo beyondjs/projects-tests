@@ -1,0 +1,149 @@
+{
+  "version": "1.0.0",
+  "scope": "test",
+  "name": "testing-app",
+  "title": "Aplicación de pruebas",
+  "description": "App con módulos básicos para pruebas en BeyondJS",
+  "layout": "main-layout",
+  "template": "template/template.json",
+  "cordova": {
+    "id": "testing",
+    "name": "testing",
+    "description": "The testing app",
+    "author": {
+      "name": "BeyondJS",
+      "href": "http://beyondjs.com",
+      "email": "hello@beyondjs.com"
+    },
+    "version": {
+      "number": "1.0"
+    }
+  },
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "routing": {
+    "ssr": false
+  },
+  "modules": {
+    "path": "./modules"
+  },
+  "static": {
+    "includes": [
+      "favicon.ico",
+      "images",
+      "static",
+      "bootstrap.min.css",
+      "bootstrap.min.css.map"
+    ]
+  },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/widgets",
+      "@beyond-js/backend",
+      "@beyond-js/react-widgets",
+      "@beyond-js/vue-widgets",
+      "@beyond-js/svelte-widgets",
+      "@beyond-js/ssr",
+      "@testing/message"
+    ]
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "environment": "development",
+        "development": {
+          "tools": true
+        },
+        "port": 8080,
+        "default": true,
+        "ssr": "ssr",
+        "backend": "backend",
+        "minify": {
+          "html": false,
+          "js": false,
+          "css": false
+        },
+        "bundles": {
+          "mode": "sjs"
+        },
+        "gzip": false,
+        "maps": "inline",
+        "imports": {
+          "@beyond-js/kernel": "web",
+          "@beyond-js/widgets": "web",
+          "@beyond-js/react-widgets": "web",
+          "@beyond-js/vue-widgets": "web",
+          "@beyond-js/svelte-widgets": "web",
+          "@beyond-js/backend": "web",
+          "@beyond-js/ssr": "web",
+          "@testing/message": "web"
+        }
+      },
+      {
+        "name": "tsc",
+        "platform": "web",
+        "environment": "development",
+        "port": 8081,
+        "ts": {
+          "compiler": "tsc"
+        },
+        "compress": true,
+        "imports": {
+          "@beyond-js/kernel": "web-tsc",
+          "@beyond-js/widgets": "web-tsc",
+          "@beyond-js/react-widgets": "web-tsc",
+          "@beyond-js/vue-widgets": "web-tsc",
+          "@beyond-js/svelte-widgets": "web-tsc",
+          "@beyond-js/backend": "web-tsc",
+          "@beyond-js/ssr": "web-tsc",
+          "@testing/message": "web-tsc"
+        }
+      },
+      {
+        "name": "backend",
+        "platform": "backend",
+        "ports": {
+          "bundles": 8082,
+          "server": 8083
+        },
+        "imports": {
+          "@beyond-js/kernel": "node",
+          "@beyond-js/widgets": "node",
+          "@beyond-js/react-widgets": "node",
+          "@beyond-js/vue-widgets": "node",
+          "@beyond-js/svelte-widgets": "node",
+          "@beyond-js/backend": "node",
+          "@beyond-js/ssr": "node",
+          "@testing/message": "node"
+        }
+      },
+      {
+        "name": "ssr",
+        "platform": "ssr",
+        "ports": {
+          "bundles": 8085,
+          "http": 8086,
+          "inspect": 8087
+        },
+        "imports": {
+          "@beyond-js/kernel": "node",
+          "@beyond-js/widgets": "node",
+          "@beyond-js/react-widgets": "node",
+          "@beyond-js/vue-widgets": "node",
+          "@beyond-js/svelte-widgets": "node",
+          "@beyond-js/backend": "node",
+          "@beyond-js/ssr": "node",
+          "@testing/message": "node"
+        }
+      }
+    ]
+  }
+}

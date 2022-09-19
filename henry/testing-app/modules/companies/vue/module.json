@@ -1,0 +1,56 @@
+{
+  "name": "companies-vue",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/companies-vue",
+    "render": {
+      "ssr": true
+    },
+    "element": {
+      "name": "companies-vue-page"
+    },
+    "vue": {
+      "path": "widget/vue",
+      "files": "*"
+    },
+    "ts": {
+      "path": "widget/vue",
+      "files": "*"
+    },
+    "sass": {
+      "path": "widget/styles",
+      "files": "*"
+    }
+  },
+  "txt": {
+    "path": "widget/txt",
+    "multilanguage": true,
+    "files": "*"
+  },
+  "txt-start": {
+    "ts": {
+      "path": "menu",
+      "files": "register.ts"
+    }
+  },
+  "txt-menu": {
+    "path": "menu",
+    "multilanguage": true,
+    "files": "texts.json"
+  },
+  "bridge": {
+    "path": "api",
+    "files": "*"
+  },
+  "ts": {
+    "name": "store",
+    "path": "store",
+    "files": "*"
+  }
+}

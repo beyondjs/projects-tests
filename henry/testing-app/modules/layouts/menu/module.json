@@ -1,0 +1,39 @@
+{
+  "name": "layout/menu",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "render": {
+      "multilanguage": true,
+      "ssr": false,
+      "sr": [
+        {
+          "title": "Menu title"
+        }
+      ],
+      "csr": false
+    },
+    "element": {
+      "name": "menu-layout",
+      "attrs": [
+        "title"
+      ]
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "sass": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "es": {
+    "example": "Ejemplo de texto"
+    "example2": "Ejemplo de texto2"
+  },
+  "en": {
+    "example": "Text example",
+    "example2": "Text example2"
+  }
+}

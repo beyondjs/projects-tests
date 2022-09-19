@@ -1,0 +1,17 @@
+{
+  "name": "external-page",
+  "widget": {
+    "hmr": true,
+    "element": {
+      "name": "external-page"
+    },
+    "route": "/external-libraries",
+    "is": "page",
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "history",
+  "widget": {
+    "is": "page",
+    "route": "/history",
+    "element": {
+      "name": "history-page"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

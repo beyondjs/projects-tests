@@ -1,0 +1,30 @@
+{
+  "name": "tutorial",
+  "platforms": [
+    "backend",
+    "web"
+  ],
+  "bridge": {
+    "path": "./bridge",
+    "files": "*"
+  },
+  "widget": {
+    "is": "page",
+    "route": "/tutorial",
+    "element": {
+      "name": "tutorial-page"
+    },
+    "sass": {
+      "path": "sass",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

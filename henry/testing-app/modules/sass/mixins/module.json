@@ -1,0 +1,13 @@
+{
+  "name": "mixins",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "sass": {
+    "path": ".",
+    "files": "*"
+  }
+}

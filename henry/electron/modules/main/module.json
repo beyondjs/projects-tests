@@ -1,0 +1,7 @@
+{
+  "bundle": "start",
+  "platforms": "node",
+  "ts": {
+    "files": "*"
+  }
+}

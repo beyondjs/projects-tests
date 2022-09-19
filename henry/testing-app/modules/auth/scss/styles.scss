@@ -1,0 +1,225 @@
+#change-password-container {
+  min-height: 100vh;
+  background: transparent linear-gradient(
+                  to bottom,
+                  var(--xap-blue-variant-color),
+                  var(--xapp-blue-dark-color)
+  );
+
+  main {
+    display: flex;
+    background: transparent url("#host.application#assets/fondo-2.png") no-repeat bottom center fixed;
+    background-size: 100%;
+    flex-flow: column;
+    height: 100%;
+    min-height: inherit;
+    overflow: hidden;
+
+    .content-toolbar {
+      background: transparent url("#host.application#assets/Grupo1389.png") no-repeat center center;
+      background-size: 100% 100%;
+
+      .left-icon,
+      .right-icon {
+        visibility: hidden;
+
+        svg {
+          fill: var(--xapp-gray-darker-color);
+        }
+      }
+
+      .right-icon {
+        visibility: hidden;
+      }
+
+      .logo {
+        fill: var(--xapp-background-color);
+      }
+    }
+
+    form {
+      padding: 0 1rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 4vh 0 0;
+      z-index: 2;
+
+      h5 {
+        font-weight: var(--xapp-font-weight-300);
+      }
+
+      .input-password .beyond-element-input {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    .lines-singup {
+      height: 100vh;
+      width: 100vw;
+      position: absolute;
+      bottom: 21%;
+      z-index: 1;
+      fill: var(--xapp-yellow-dark-color);
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    main {
+      form .box-form {
+        width: 65%;
+      }
+    }
+  }
+
+  .bg-lines {
+    height: 100%;
+    background: transparent url("#host.application#assets/Lineas(5).png") no-repeat center -11vh fixed;
+    background-size: 100% 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    main {
+      form .box-form {
+        padding: 3rem 5rem 5rem 5rem;
+        width: 70%;
+
+        .title-box-form {
+          font-size: var(--xapp-font-size-25);
+          font-weight: var(--xapp-font-weight-300);
+        }
+
+        h5 {
+          font-size: var(--xapp-font-size-20);
+        }
+
+        .group-inputs {
+          .beyond-element-input {
+            input {
+              font-size: var(--xapp-font-size-20);
+            }
+
+            label {
+              color: var(--xapp-gray-darker-color);
+              font-size: var(--xapp-font-size-20);
+              top: 5px;
+            }
+
+            &:focus-within {
+              label {
+                font-size: var(--xapp-font-size-18);
+                top: -5px;
+              }
+            }
+
+            .requerido {
+              font-size: var(--xapp-font-size-20);
+            }
+          }
+
+          .input-password {
+            .requeired-password {
+              font-size: var(--xapp-font-size-20);
+            }
+          }
+        }
+
+        .text-privacity span {
+          font-size: var(--xapp-font-size-20);
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-height: 1200px) {
+    main {
+      background: transparent url("#host.application#assets/Lineas-code-desktop.png") no-repeat center center fixed;
+      background-size: 100% 100%;
+    }
+    .bg-lines {
+      background: none;
+    }
+    main form .box-form {
+      width: 85%;
+      padding: 3rem 5rem 5rem;
+
+      .group-inputs {
+        display: flex;
+        flex-flow: row wrap;
+        -moz-column-gap: 5%;
+        column-gap: 5%;
+
+        .beyond-element-input {
+          flex: 1 1 45%;
+          margin: 0 auto;
+          max-width: 45%;
+
+          input {
+            max-width: 100%;
+          }
+
+          label {
+            top: -6px;
+            color: var(--xapp-text-color-primary);
+          }
+        }
+
+        .input-group {
+          flex: 1 1 47.5%;
+          margin: 0 auto;
+        }
+
+        .input-password {
+          flex: 1 1 47.5%;
+
+          max-width: 45%;
+
+          .beyond-element-input {
+            max-width: 100%;
+          }
+        }
+      }
+
+      .text-privacity {
+        text-align: center;
+        margin: 3rem 0 0 0;
+      }
+
+      .title-box-form {
+        text-align: center;
+      }
+
+      h5 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.error {
+  display: block;
+  color: var(--xapp-text-color-activity);
+  -webkit-animation: aparece-izquierda ease-in-out 0.8s backwards;
+  animation: aparece-izquierda ease-in-out 0.8s backwards;
+}
+
+@-webkit-keyframes aparece-izquierda {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes aparece-izquierda {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}

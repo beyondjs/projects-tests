@@ -1,0 +1,56 @@
+{
+  "name": "companies-react",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/companies-react",
+    "render": {
+      "ssr": true,
+      "sr": false,
+      "csr": true
+    },
+    "element": {
+      "name": "companies-react-page"
+    },
+    "ts": {
+      "path": "widget/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "sass": {
+      "path": "widget/styles",
+      "files": "*"
+    }
+  },
+  "txt": {
+    "path": "widget/txt",
+    "multilanguage": true,
+    "files": "*"
+  },
+  "txt-start": {
+    "ts": {
+      "path": "menu",
+      "files": "register.ts"
+    }
+  },
+  "txt-menu": {
+    "path": "menu",
+    "multilanguage": true,
+    "files": "texts.json"
+  },
+  "bridge": {
+    "path": "api",
+    "files": "*"
+  },
+  "ts": {
+    "name": "store",
+    "path": "store",
+    "files": "*"
+  }
+}

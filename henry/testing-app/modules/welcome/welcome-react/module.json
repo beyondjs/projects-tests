@@ -1,0 +1,54 @@
+{
+  "name": "welcome",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/welcome/${name}",
+    "render": {
+      "multilanguage": true,
+      "sr": [
+        "/welcome/lionel"
+      ],
+      "csr": false
+    },
+    "element": {
+      "name": "welcome-page"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "sass": {
+      "path": "styles",
+      "files": "*"
+    }
+  },
+  "txt-start": {
+    "ts": {
+      "path": "start",
+      "files": "start.ts"
+    }
+  },
+  "txt": {
+    "path": "txt",
+    "multilanguage": true,
+    "files": "*"
+  },
+  "txt-menu": {
+    "path": "start",
+    "multilanguage": true,
+    "files": "texts.json"
+  },
+  "static": {
+    "includes": [
+      "assets"
+    ]
+  }
+}

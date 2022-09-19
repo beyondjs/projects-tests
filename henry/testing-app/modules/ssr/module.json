@@ -1,0 +1,7 @@
+{
+  "bundle": "start",
+  "platforms": "ssr",
+  "ts": {
+    "files": "*"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "welcome-vue",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/welcome-vue",
+    "element": {
+      "name": "welcome-page-vue"
+    },
+    "vue": {
+      "path": "vue",
+      "files": "*"
+    },
+    "ts": {
+      "path": "vue",
+      "files": "*"
+    },
+    "sass": {
+      "path": "vue",
+      "files": "*"
+    }
+  },
+  "txt-start": {
+    "ts": {
+      "path": "start",
+      "files": "start.ts"
+    }
+  },
+  "txt-menu": {
+    "path": "start",
+    "multilanguage": true,
+    "files": "texts.json"
+  }
+}

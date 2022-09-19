@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "widget": {
+    "is": "page",
+    "route": "/test",
+    "element": {
+      "name": "composed-test"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "txt": {
+    "multilanguage": true,
+    "path": "txt",
+    "files": [
+      "*"
+    ]
+  },
+  "bridge": {
+    "path": "bridge",
+    "files": "*"
+  }
+}

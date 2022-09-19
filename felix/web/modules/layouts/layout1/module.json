@@ -1,0 +1,22 @@
+{
+  "name": "layout1",
+  "widget": {
+    "is": "layout",
+    "element": {
+      "name": "layout-layout"
+    },
+    "id": "layout1",
+    "sass": {
+      "path": "/widget/sass",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

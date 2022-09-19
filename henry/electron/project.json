@@ -1,0 +1,84 @@
+{
+  "version": "1.0.0",
+  "scope": "test",
+  "name": "electron",
+  "title": "Probando Electron con BeyondJS",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "./modules"
+  },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/widgets",
+      "@beyond-js/react-widgets",
+      "@beyond-js/vue-widgets",
+      "@beyond-js/svelte-widgets",
+      "@beyond-js/backend",
+      "@beyond-js/ssr"
+    ]
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "environment": "development",
+        "port": 6060,
+        "default": true,
+        "imports": {
+          "@beyond-js/kernel": "web",
+          "@beyond-js/widgets": "web",
+          "@beyond-js/react-widgets": "web",
+          "@beyond-js/vue-widgets": "web",
+          "@beyond-js/svelte-widgets": "web",
+          "@beyond-js/backend": "web",
+          "@beyond-js/ssr": "web",
+          "@testing/message": "web"
+        }
+      },
+      {
+        "name": "tsc",
+        "platform": "web",
+        "environment": "development",
+        "port": 6061,
+        "ts": {
+          "compiler": "tsc"
+        },
+        "imports": {
+          "@beyond-js/kernel": "web-tsc",
+          "@beyond-js/widgets": "web-tsc",
+          "@beyond-js/react-widgets": "web-tsc",
+          "@beyond-js/vue-widgets": "web-tsc",
+          "@beyond-js/svelte-widgets": "web-tsc",
+          "@beyond-js/backend": "web-tsc",
+          "@beyond-js/ssr": "web-tsc",
+          "@testing/message": "web-tsc"
+        }
+      },
+      {
+        "name": "node",
+        "platform": "node",
+        "ports": {
+          "bundles": 6062
+        },
+        "imports": {
+          "@beyond-js/kernel": "node",
+          "@beyond-js/widgets": "node",
+          "@beyond-js/react-widgets": "node",
+          "@beyond-js/vue-widgets": "node",
+          "@beyond-js/svelte-widgets": "node",
+          "@beyond-js/backend": "node",
+          "@beyond-js/ssr": "node",
+          "@testing/message": "node"
+        }
+      }
+    ]
+  }
+}

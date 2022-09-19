@@ -1,0 +1,9 @@
+{
+  "scope": "testing",
+  "name": "message",
+  "version": "1.0",
+  "title": "Library testing",
+  "modules": {
+    "path": "modules"
+  }
+}

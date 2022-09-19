@@ -1,0 +1,33 @@
+{
+  "name": "import-backend",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/import-backend",
+    "element": {
+      "name": "import-backend"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "txt-start": {
+    "ts": {
+      "path": "start",
+      "files": "start.ts"
+    }
+  },
+  "txt-menu": {
+    "path": "start",
+    "multilanguage": true,
+    "files": "texts.json"
+  }
+}

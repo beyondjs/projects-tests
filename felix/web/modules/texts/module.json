@@ -1,0 +1,27 @@
+{
+  "name": "texts",
+  "txt": {
+    "path": "txt",
+    "multilanguage": true,
+    "files": "*"
+  },
+  "widget": {
+    "element": {
+      "name": "texts-page"
+    },
+    "route": "/texts",
+    "is": "page",
+    "sass": {
+      "path": "/widget/sass",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

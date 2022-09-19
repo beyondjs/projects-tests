@@ -1,0 +1,8 @@
+{
+  "name": "static-provider",
+  "platforms": "backend",
+  "ts": {
+    "path": "./ts",
+    "files": "*"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "scope": "test",
+  "name": "testing-app",
+  "title": "Aplicación de pruebas",
+  "description": "App con módulos básicos para pruebas en BeyondJS",
+  "layout": "main-layout",
+  "template": "template/template.json",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "./modules"
+  },
+  "static": {
+    "includes": [
+      "images"
+    ]
+  },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/widgets",
+      "@beyond-js/react-widgets",
+      "@beyond-js/vue-widgets",
+      "@beyond-js/svelte-widgets",
+      "@beyond-js/backend",
+      "@beyond-js/ssr"
+    ]
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "environment": "development",
+        "port": 9090,
+        "bundles": {
+          "mode": "sjs"
+        },
+        "maps": "internal",
+        "default": true,
+        "imports": {
+          "@beyond-js/kernel": "web",
+          "@beyond-js/widgets": "web",
+          "@beyond-js/react-widgets": "web",
+          "@beyond-js/vue-widgets": "web",
+          "@beyond-js/svelte-widgets": "web",
+          "@beyond-js/backend": "web",
+          "@beyond-js/ssr": "web"
+        }
+      }
+    ]
+  }
+}

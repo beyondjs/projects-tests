@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "scope": "beyond",
+  "name": "ui",
+  "title": "Beyond components to create web projects",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+  "params": {},
+  "modules": {
+    "path": "./modules"
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "port": 3503,
+        "default": true
+      }
+    ]
+  }
+}

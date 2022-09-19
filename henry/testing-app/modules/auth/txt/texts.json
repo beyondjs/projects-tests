@@ -1,0 +1,22 @@
+{
+  "es": {
+    "title": "Cambia tu contraseña",
+    "atention": "Atención",
+    "errorInput": "El campo no puede ir vacío",
+    "error": "Las contraseñas deben coincidir",
+    "name": "Contraseña",
+    "password": "Repetir contraseña",
+    "create": "Enviar",
+    "text": "La contraseña debe estar compuesta por mínimo 8 caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial"
+  },
+  "en": {
+    "title": "Cambia tu contraseña",
+    "atention": "Atención",
+    "errorInput": "El campo no puede ir vacío",
+    "error": "Las contraseñas deben coincidir",
+    "name": "Contraseña",
+    "password": "Repetir contraseña",
+    "create": "Enviar",
+    "text": "La contraseña debe estar compuesta por mínimo 8 caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "home",
+  "platforms": [
+    "backend",
+    "web"
+  ],
+  "bridge": {
+    "path": "bridge",
+    "files": [
+      "*"
+    ]
+  },
+  "widget": {
+    "is": "page",
+    "route": "/",
+    "element": {
+      "name": "home-page"
+    },
+    "sass": {
+      "path": "sass",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

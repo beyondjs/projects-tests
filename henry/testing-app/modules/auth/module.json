@@ -1,0 +1,27 @@
+{
+  "name": "auth",
+  "widget": {
+    "is": "page",
+    "route": "/auth/set-password/${token}",
+    "element": {
+      "name": "auth-page"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "txt": {
+    "path": "txt",
+    "multilanguage": true,
+    "files": "*"
+  }
+}

@@ -1,0 +1,26 @@
+//Menu
+aside {
+  background: #313C50;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  color: #d7d7d7;
+
+  h1 {
+    padding: 8px 15px;
+  }
+
+  .slot {
+    padding: 0 15px 16px;
+  }
+
+  .item {
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 200ms ease-in all;
+
+    &:hover {
+      background: darken(#E36152, 10%);
+    }
+  }
+}

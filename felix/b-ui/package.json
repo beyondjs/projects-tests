@@ -1,0 +1,11 @@
+{
+  "name": "@b-ui/b-ui",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@beyond-js/react-widgets": "^18.18.0",
+    "swiper": "^8.1.4"
+  }
+}

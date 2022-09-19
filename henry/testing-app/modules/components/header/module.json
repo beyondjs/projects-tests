@@ -1,0 +1,23 @@
+{
+  "name": "header",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "code": {
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "sass": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

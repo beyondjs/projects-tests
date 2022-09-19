@@ -1,0 +1,46 @@
+{
+  "name": "redux",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/redux",
+    "element": {
+      "name": "redux-page"
+    },
+    "ts": {
+      "path": "widget/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "sass": {
+      "path": "widget/styles",
+      "files": "*"
+    }
+  },
+  "txt": {
+    "path": "widget/txt",
+    "multilanguage": true,
+    "files": "*"
+  },
+  "txt-start": {
+    "ts": {
+      "path": "menu",
+      "files": "register.ts"
+    }
+  },
+  "txt-menu": {
+    "path": "menu",
+    "multilanguage": true,
+    "files": "texts.json"
+  },
+  "ts": {
+    "path": "store",
+    "files": "*"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "home",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/",
+    "layout": "footer-layout",
+    "element": {
+      "name": "home-page"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "txt-start": {
+    "ts": {
+      "path": "start",
+      "files": "start.ts"
+    }
+  },
+  "txt-menu": {
+    "path": "start",
+    "multilanguage": true,
+    "files": "texts.json"
+  }
+}

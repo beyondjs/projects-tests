@@ -1,0 +1,22 @@
+{
+  "name": "home-svelte",
+  "widget": {
+    "is": "page",
+    "route": "/home-svelte",
+    "element": {
+      "name": "home-page-svelte"
+    },
+    "ts": {
+      "path": "svelte",
+      "files": "*"
+    },
+    "svelte": {
+      "path": "svelte",
+      "files": "*"
+    },
+    "sass": {
+      "path": "svelte",
+      "files": "*"
+    }
+  }
+}

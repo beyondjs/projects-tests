@@ -1,0 +1,22 @@
+{
+  "name": "swiper-page",
+  "widget": {
+    "is": "page",
+    "route": "/swiper",
+    "element": {
+      "name": "swiper-page"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

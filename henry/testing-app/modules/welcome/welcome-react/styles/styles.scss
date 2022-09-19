@@ -1,0 +1,7 @@
+@import '_vars';
+@import '~@test/testing-app/mixins/sass/sass/_to_rgb';
+
+.welcome-page {
+  background-image: url('./assets/logo.png');
+  border: to-rgb($base-color);
+}

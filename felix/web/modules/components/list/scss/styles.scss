@@ -1,0 +1,12 @@
+.list-container {
+  padding: 0 20px;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      display: grid;
+      grid-template-rows: 1fr auto;
+    }
+  }
+}

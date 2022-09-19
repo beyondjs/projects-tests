@@ -1,0 +1,32 @@
+{
+  "name": "layout/footer",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "layout",
+    "render": {
+      "ssr": false,
+      "sr": true,
+      "csr": false
+    },
+    "element": {
+      "name": "footer-layout"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "sass": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

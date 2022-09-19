@@ -1,0 +1,16 @@
+{
+  "name": "mui-material",
+  "widget": {
+    "is": "page",
+    "route": "/mui-material",
+    "element": {
+      "name": "mui-material-page"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

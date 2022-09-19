@@ -1,0 +1,12 @@
+{
+  "name": "message",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "ts": {
+    "files": "*"
+  }
+}

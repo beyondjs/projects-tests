@@ -1,0 +1,39 @@
+{
+  "name": "widget-component-2",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/widget/component/component",
+    "element": {
+      "name": "widget-component-2"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "txt-start": {
+    "ts": {
+      "path": "start",
+      "files": "start.ts"
+    }
+  },
+  "txt-menu": {
+    "path": "start",
+    "multilanguage": true,
+    "files": "texts.json"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "scope": "bb1",
+  "name": "bb1",
+  "template": "template/template.json",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "E:\\workspace\\beyond\\beyond\\packages\\tests\\julio\\test\\modules",
+    "externals": {}
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "backend",
+        "environment": "development",
+        "platform": "backend",
+        "ports": {
+          "http": 3500,
+          "bundles": 4000,
+          "inspect": 4500
+        }
+      },
+      {
+        "name": "89",
+        "environment": "development",
+        "ssr": "",
+        "platform": "android",
+        "ports": {
+          "bundles": 8500
+        },
+        "minify": {
+          "html": false,
+          "css": false,
+          "js": false
+        },
+        "bundles": {
+          "mode": "sjs"
+        }
+      },
+      {
+        "name": "79550",
+        "environment": "development",
+        "ssr": "",
+        "platform": "ssr",
+        "ports": {
+          "http": 5644,
+          "inspect": 7933,
+          "bundles": 9600
+        },
+        "minify": {
+          "html": false,
+          "css": false,
+          "js": false
+        },
+        "bundles": {
+          "mode": "sjs"
+        }
+      }
+    ]
+  }
+}

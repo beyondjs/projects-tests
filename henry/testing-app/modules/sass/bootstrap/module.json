@@ -1,0 +1,6 @@
+{
+  "name": "bootstrap",
+  "sass": {
+    "files": "*"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "static-test",
+  "widget": {
+    "is": "page",
+    "route": "/static-test",
+    "element": {
+      "name": "static-test"
+    },
+    "sass": {
+      "path": "sass",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "static": {
+    "includes": "./images"
+  }
+}

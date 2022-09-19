@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "element": {
+      "name": "hello-world"
+    },
+    "ts": {
+      "files": [
+        "*"
+      ]
+    },
+    "sass": {
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "txt": {
+    "files": "*"
+  }
+}

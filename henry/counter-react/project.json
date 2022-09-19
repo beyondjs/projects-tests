@@ -1,0 +1,46 @@
+{
+  "version": "0.0.1",
+  "scope": "beyond-js",
+  "name": "counter-react-widget",
+  "modules": {
+    "path": "./modules"
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "environment": "development",
+        "bundles": {
+          "mode": "sjs"
+        },
+        "port": 6500,
+        "default": true
+      },
+      {
+        "name": "node",
+        "platform": "node",
+        "port": 6501
+      },
+      {
+        "name": "web",
+        "platform": "web",
+        "bundles": {
+          "mode": "esm"
+        },
+        "port": 6502
+      }
+    ]
+  },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/widgets",
+      "@beyond-js/react-widgets",
+      "@beyond-js/vue-widgets",
+      "@beyond-js/svelte-widgets",
+      "@beyond-js/backend",
+      "@beyond-js/ssr"
+    ]
+  }
+}

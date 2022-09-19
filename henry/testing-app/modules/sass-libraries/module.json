@@ -1,0 +1,23 @@
+{
+  "name": "sass-libraries",
+  "widget": {
+    "hmr": true,
+    "element": {
+      "name": "sass-library-page"
+    },
+    "route": "/sass-libraries",
+    "is": "page",
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "/widget/scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

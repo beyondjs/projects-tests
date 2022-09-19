@@ -1,0 +1,47 @@
+{
+  "scope": "jida",
+  "name": "web-backend-app",
+  "version": "1.0.0",
+  "author": "ftovar",
+  "license": "MIT",
+  "title": "Basic Web-Backend Application",
+  "description": "Basic Web Backend application",
+  "template": "template/template.json",
+  "layout": "main-layout",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "modules"
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "environment": "development",
+        "backend": "backend",
+        "ports": {
+          "bundles": 5050,
+          "http": 5051,
+          "inspect": 5052
+        },
+        "default": true
+      },
+      {
+        "name": "backend",
+        "platform": "backend",
+        "environment": "development",
+        "ports": {
+          "bundles": 5053,
+          "http": 5054,
+          "inspect": 5055
+        }
+      }
+    ]
+  }
+}

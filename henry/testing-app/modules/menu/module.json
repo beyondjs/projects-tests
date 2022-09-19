@@ -1,0 +1,8 @@
+{
+  "name": "menu",
+  "txt-start": {
+    "ts": {
+      "files": "*"
+    }
+  }
+}

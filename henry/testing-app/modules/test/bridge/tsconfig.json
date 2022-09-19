@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": [
+      ]
+    },
+    "outDir": "dist"
+  },
+  "include": [
+  ],
+  "references": [
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

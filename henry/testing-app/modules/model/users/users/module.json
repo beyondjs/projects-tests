@@ -1,0 +1,13 @@
+{
+  "name": "users",
+  "platforms": [
+    "backend",
+    "web",
+    "ios",
+    "android"
+  ],
+  "bridge": {
+    "path": "./bridge",
+    "files": "*"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "texts",
+  "txt": {
+    "multilanguage": true,
+    "path": "txt",
+    "files": "*"
+  },
+  "ts": {
+    "path": "ts",
+    "files": [
+      "*"
+    ]
+  }
+}

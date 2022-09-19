@@ -1,0 +1,22 @@
+{
+  "name": "menu-toggle",
+  "widget": {
+    "is": "page",
+    "route": "/menu-toggle",
+    "element": {
+      "name": "menu-toggle"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

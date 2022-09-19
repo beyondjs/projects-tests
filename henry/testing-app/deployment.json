@@ -1,0 +1,91 @@
+{
+  "distributions": [
+    {
+      "name": "web",
+      "platform": "web",
+      "environment": "development",
+      "development": {
+        "tools": true
+      },
+      "port": 8080,
+      "delete-this-property": false,
+      "default": true,
+      "ssr": "ssr",
+      "backend": "backend",
+      "minify": {
+        "html": false,
+        "js": false,
+        "css": false
+      },
+      "gzip": false,
+      "maps": "inline",
+      "imports": {
+        "@beyond-js/kernel": "web",
+        "@beyond-js/widgets": "web",
+        "@beyond-js/react-widgets": "web",
+        "@beyond-js/vue-widgets": "web",
+        "@beyond-js/svelte-widgets": "web",
+        "@beyond-js/backend": "web",
+        "@beyond-js/ssr": "web",
+        "@testing/message": "web"
+      }
+    },
+    {
+      "name": "tsc",
+      "platform": "web",
+      "environment": "development",
+      "port": 8081,
+      "ts": {
+        "compiler": "tsc"
+      },
+      "compress": true,
+      "imports": {
+        "@beyond-js/kernel": "web-tsc",
+        "@beyond-js/widgets": "web-tsc",
+        "@beyond-js/react-widgets": "web-tsc",
+        "@beyond-js/vue-widgets": "web-tsc",
+        "@beyond-js/svelte-widgets": "web-tsc",
+        "@beyond-js/backend": "web-tsc",
+        "@beyond-js/ssr": "web-tsc",
+        "@testing/message": "web-tsc"
+      }
+    },
+    {
+      "name": "backend",
+      "platform": "backend",
+      "ports": {
+        "bundles": 8082,
+        "server": 8083
+      },
+      "imports": {
+        "@beyond-js/kernel": "node",
+        "@beyond-js/widgets": "node",
+        "@beyond-js/react-widgets": "node",
+        "@beyond-js/vue-widgets": "node",
+        "@beyond-js/svelte-widgets": "node",
+        "@beyond-js/backend": "node",
+        "@beyond-js/ssr": "node",
+        "@testing/message": "node"
+      }
+    },
+    {
+      "name": "ssr",
+      "platform": "ssr",
+      "ports": {
+        "bundles": 8085,
+        "http": 8086,
+        "inspect": 8087
+      },
+      "imports": {
+        "@beyond-js/kernel": "node",
+        "@beyond-js/widgets": "node",
+        "@beyond-js/react-widgets": "node",
+        "@beyond-js/vue-widgets": "node",
+        "@beyond-js/svelte-widgets": "node",
+        "@beyond-js/backend": "node",
+        "@beyond-js/ssr": "node",
+        "@testing/message": "node"
+      }
+    }
+  ]
+}

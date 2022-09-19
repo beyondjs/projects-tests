@@ -1,0 +1,23 @@
+{
+  "name": "test-toast",
+  "widget": {
+    "is": "page",
+    "route": "/toast",
+    "element": {
+      "name": "test-toast"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}
+  

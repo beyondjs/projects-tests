@@ -1,0 +1,11 @@
+{
+  "name": "weather",
+  "platforms": [
+    "backend",
+    "web"
+  ],
+  "bridge": {
+    "path": "./bridge",
+    "files": "*"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "perfect-scrollbar",
+  "widget": {
+    "is": "page",
+    "route": "/perfect-scrollbar",
+    "element": {
+      "name": "perfect-scrollbar-page"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

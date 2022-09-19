@@ -1,0 +1,12 @@
+{
+  "name": "@beyond-js/bee",
+  "version": "0.0.1",
+  "description": "Run node.js on demand in development environment",
+  "main": "index.js",
+  "author": "@beyond-js",
+  "license": "MIT",
+  "dependencies": {
+    "@beyond-js/backend": "^0.0.9",
+    "socket.io-client": "^4.4.1"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "welcome-svelte",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/welcome-svelte",
+    "element": {
+      "name": "welcome-page-svelte"
+    },
+    "svelte": {
+      "path": "svelte",
+      "files": "*"
+    },
+    "ts": {
+      "path": "svelte",
+      "files": "*"
+    },
+    "sass": {
+      "path": "svelte",
+      "files": "*"
+    }
+  },
+  "txt-start": {
+    "ts": {
+      "path": "start",
+      "files": "start.ts"
+    }
+  },
+  "txt-menu": {
+    "path": "start",
+    "multilanguage": true,
+    "files": "texts.json"
+  }
+}

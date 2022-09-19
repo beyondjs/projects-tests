@@ -1,0 +1,20 @@
+{
+  "name": "widget-test",
+  "widget": {
+    "element": {
+      "name": "widget-test"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "scss",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

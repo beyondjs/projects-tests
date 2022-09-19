@@ -1,0 +1,38 @@
+{
+  "version": "0.0.1",
+  "scope": "beyond-js",
+  "name": "testing-bee",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "./modules"
+  },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/bee"
+    ]
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "node",
+        "platform": "node",
+        "ports": {
+          "bundles": 5010,
+          "http": 5011,
+          "inspect": 5012
+        },
+        "imports": {
+          "@beyond-js/kernel": "node",
+          "@beyond-js/bee": "node"
+        }
+      }
+    ]
+  }
+}

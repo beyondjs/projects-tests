@@ -1,0 +1,16 @@
+{
+  "name": "framer-motion",
+  "widget": {
+    "is": "page",
+    "route": "/framer-motion",
+    "element": {
+      "name": "framer-motion-page"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

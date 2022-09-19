@@ -1,0 +1,112 @@
+.content-toolbar {
+  display: flex;
+  padding: 1rem;
+  align-items: flex-start;
+  transition: all 0.5s ease-in-out;
+  z-index: 100;
+
+  &.gap {
+    column-gap: 25%;
+  }
+
+  &.justify-between {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .left-icon,
+  .right-icon {
+    border-radius: 0.6rem;
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 7px 29px 0;
+    background-color: var(--xapp-background-variant-color-light);
+  }
+
+  .left-icon .beyond-icon {
+    fill: var(--xapp-blue-color);
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .right-icon .beyond-icon {
+    fill: var(--xapp-primary-color);
+    width: 1.2rem;
+    height: 1.2rem;
+    user-select: none;
+  }
+
+  .text-toolbar {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-self: center;
+
+    .title-toolbar {
+      margin: 0;
+      font-weight: var(--xapp-font-weight-600);
+      font-size: var(--xapp-font-size-25);
+      line-height: var(--xapp-line-spacing-22);
+      letter-spacing: var(--xapp-character-spacing-0-9);
+    }
+
+    .subtitle-toolbar {
+      font-size: var(--xapp-font-size-18);
+      font-weight: var(--xapp-font-weight-300);
+      margin: 0.2rem 0 0;
+      display: flex;
+      justify-content: space-between;
+
+      &.width {
+        width: 6rem;
+      }
+
+      .icon-subtitle {
+        background-color: var(--xapp-background-color);
+        border-radius: 50%;
+        width: 1.2rem;
+        height: 1.2rem;
+        display: flex;
+
+        .beyond-icon {
+          width: 15px;
+          height: 15px;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  .logo-absolute {
+    position: absolute;
+    right: 30%;
+  }
+
+  &.is-sticky {
+    position: sticky;
+    top: 0;
+  }
+}
+
+@keyframes preload-texts {
+  0% {
+    background: red;
+  }
+  50% {
+    background: blue;
+  }
+  100% {
+    background: green;
+  }
+}
+
+.preload-texts {
+  background-color: red;
+  height: 1000000px;
+
+  width: 200px;
+  animation-name: preload-texts;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hooks",
+  "widget": {
+    "hmr": true,
+    "element": {
+      "name": "hooks-page"
+    },
+    "route": "/hooks",
+    "is": "page",
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

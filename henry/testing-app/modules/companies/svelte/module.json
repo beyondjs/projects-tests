@@ -1,0 +1,48 @@
+{
+  "name": "companies-svelte",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/companies-svelte",
+    "render": {
+      "ssr": true,
+      "csr": true
+    },
+    "element": {
+      "name": "companies-page-svelte"
+    },
+    "svelte": {
+      "path": "widget",
+      "files": "*"
+    },
+    "ts": {
+      "path": "widget",
+      "files": "*"
+    },
+    "sass": {
+      "path": "widget",
+      "files": "*"
+    }
+  },
+  "txt-start": {
+    "ts": {
+      "path": "menu",
+      "files": "register.ts"
+    }
+  },
+  "txt-menu": {
+    "path": "menu",
+    "multilanguage": true,
+    "files": "texts.json"
+  },
+  "ts": {
+    "name": "store",
+    "path": "store",
+    "files": "*"
+  }
+}

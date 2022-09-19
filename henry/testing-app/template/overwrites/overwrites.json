@@ -1,0 +1,27 @@
+{
+  "components/button": {
+    "code": {
+      "path": "button",
+      "scss": {
+        "files": [
+          "*"
+        ]
+      }
+    }
+  },
+  "import-test": {
+    "widget": {
+      "path": "import-test",
+      "scss": {
+        "files": [
+          "*"
+        ]
+      }
+    }
+  },
+  "static-test": {
+    "static": {
+      "static/jida.png": "static/jidaRed.png"
+    }
+  }
+}

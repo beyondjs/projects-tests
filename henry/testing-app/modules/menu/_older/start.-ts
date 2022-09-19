@@ -1,0 +1,76 @@
+import {IWidgetStore, ModuleCurrentTexts, Events, SingleCall} from '@beyond-js/kernel/core/ts';
+
+export /*bundle*/
+type MenuItemTexts = ModuleCurrentTexts<{ title: string }>;
+
+type MenuSpecs = { texts: MenuItemTexts };
+
+type route = string;
+
+class Menu extends Events implements IWidgetStore {
+    #items: Map<route, MenuSpecs> = new Map();
+    get items() {
+        return this.#items;
+    }
+
+    #error: string;
+    get error() {
+        return this.#error;
+    }
+
+    #loading = false;
+    get loading() {
+        return this.#loading;
+    }
+
+    #loaded = false;
+    get loaded() {
+        return this.#loaded;
+    }
+
+    set(route: string, specs: MenuSpecs) {
+        this.#items.set(route, specs);
+    }
+
+    #initialised = false;
+
+    #initialise() {
+        if (this.#initialised) return;
+        this.#initialised = true;
+        this.#items.forEach(item => item.texts.on('change', () =>
+            setTimeout(() => this.trigger('change'), 0))
+        );
+    }
+
+    @SingleCall
+    async fetch() {
+        this.#initialise();
+        if (this.#loaded || this.#loading) return;
+
+        this.#loading = true;
+        this.trigger('change');
+
+        const promises: Promise<void>[] = [];
+        this.#items.forEach(item => promises.push(item.texts.load()));
+        try {
+            await Promise.all(promises);
+        } catch (exc) {
+            console.log(exc.stack);
+            this.#error = exc.message;
+        } finally {
+            this.#loading = false;
+            this.#loaded = true;
+            this.trigger('change');
+        }
+    }
+
+    async hydrate() {
+        await this.fetch();
+    }
+
+    toJSON() {
+        return {};
+    }
+}
+
+export /*bundle*/ const menu = new Menu();

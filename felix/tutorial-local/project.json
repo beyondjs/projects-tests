@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "scope": "testing",
+  "name": "login",
+  "title": "Basic Web-Backend Application",
+  "description": "Basic Web Backend application",
+  "layout": "main-layout",
+  "template": "template/template.json",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "params": {},
+  "modules": {
+    "path": "modules"
+  },
+  "libraries": {
+    "imports": [
+      "@beyond/ui",
+      "@beyond-js/kernel",
+      "@beyond-js/backend",
+      "@beyond-js/widgets",
+      "@beyond-js/react-widgets"
+    ]
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "environment": "development",
+        "backend": "backend",
+        "default": true,
+        "ports": {
+          "bundles": 3500
+        },
+        "bundles": {
+          "mode": "amd"
+        }
+      },
+      {
+        "name": "web.sjs",
+        "platform": "web",
+        "environment": "development",
+        "ports": {
+          "bundles": 3501
+        },
+        "bundles": {
+          "mode": "sjs"
+        }
+      },
+      {
+        "name": "web.esm",
+        "platform": "web",
+        "environment": "development",
+        "ports": {
+          "bundles": 3502
+        },
+        "bundles": {
+          "mode": "esm"
+        }
+      },
+      {
+        "name": "web.cjs",
+        "platform": "web",
+        "environment": "development",
+        "ports": {
+          "bundles": 3503
+        },
+        "bundles": {
+          "mode": "cjs"
+        }
+      },
+      {
+        "name": "backend",
+        "platform": "backend",
+        "environment": "development",
+        "ports": {
+          "bundles": 3601,
+          "http": 3602,
+          "server": 3603
+        }
+      }
+    ]
+  }
+}
