@@ -18,6 +18,17 @@
   "modules": {
     "path": "modules"
   },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/widgets",
+      "@beyond-js/backend",
+      "@beyond-js/react-widgets",
+      "@beyond-js/vue-widgets",
+      "@beyond-js/svelte-widgets",
+      "@beyond-js/ssr"
+    ]
+  },
   "deployment": {
     "distributions": [
       {

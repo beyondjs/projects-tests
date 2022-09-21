@@ -3,4 +3,4 @@
  */
 import {listen} from '@beyond-js/backend/listen';
 
-listen(9999);
+listen();

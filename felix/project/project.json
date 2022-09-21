@@ -38,12 +38,15 @@
         "name": "web",
         "platform": "web",
         "environment": "development",
-        "port": 9090,
+        "ports": {
+          "bundles": 8080,
+          "http": 8081,
+          "inspect": 8082
+        },
         "bundles": {
           "mode": "sjs"
         },
         "maps": "internal",
-        "default": true,
         "imports": {
           "@beyond-js/kernel": "web",
           "@beyond-js/widgets": "web",

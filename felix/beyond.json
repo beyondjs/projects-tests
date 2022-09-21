@@ -1,0 +1,13 @@
+{
+  "applications": [
+    "web-backend/project.json",
+    "../../@beyond/backend/project.json",
+    "../../@beyond/kernel/project.json",
+    "../../@beyond/react-widgets/react-17/project.json",
+    "../../@beyond/react-widgets/react-18/project.json",
+    "../../@beyond/ssr/project.json",
+    "../../@beyond/svelte-widgets/project.json",
+    "../../@beyond/vue-widgets/project.json",
+    "../../@beyond/widgets/project.json"
+  ]
+}
