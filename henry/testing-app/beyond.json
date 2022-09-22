@@ -1,5 +1,12 @@
 {
   "applications": [
-    "./project.json"
+    "./project.json",
+    "../../../@beyond-js/kernel/project.json",
+    "../../../@beyond-js/widgets/project.json",
+    "../../../@beyond-js/react-widgets/react-18/project.json",
+    "../../../@beyond-js/vue-widgets/project.json",
+    "../../../@beyond-js/svelte-widgets/project.json",
+    "../../../@beyond-js/backend/project.json",
+    "../../../@beyond-js/ssr/project.json"
   ]
 }
