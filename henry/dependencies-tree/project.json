@@ -1,0 +1,23 @@
+{
+  "scope": "beyond-js",
+  "name": "dependencies-tree",
+  "license": "MIT",
+  "version": "0.0.1",
+  "modules": {
+    "path": "./"
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web-tsc",
+        "platform": "*",
+        "port": 9092
+      },
+      {
+        "name": "node",
+        "platform": "*",
+        "port": 9091
+      }
+    ]
+  }
+}

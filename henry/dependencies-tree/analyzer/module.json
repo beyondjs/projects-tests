@@ -1,0 +1,5 @@
+{
+  "name": "analyzer",
+  "bundle": "ts",
+  "files": "*"
+}
