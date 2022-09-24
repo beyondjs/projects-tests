@@ -1,7 +1,13 @@
 {
+  "bundles": {
+    "register": [
+      "../bundles"
+    ]
+  },
   "applications": [
     "./project.json",
     "../../../@beyond-js/kernel/project.json",
+    "../../../@beyond-js/local/project.json",
     "../../../@beyond-js/widgets/project.json",
     "../../../@beyond-js/react-widgets/react-18/project.json",
     "../../../@beyond-js/vue-widgets/project.json",
