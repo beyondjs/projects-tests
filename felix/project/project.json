@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "scope": "test",
-  "name": "testing-app",
+  "name": "project-app",
   "title": "Aplicación de pruebas",
   "description": "App con módulos básicos para pruebas en BeyondJS",
   "layout": "main-layout",
@@ -32,6 +32,20 @@
       "@beyond-js/ssr"
     ]
   },
+  "cordova": {
+    "id": "id app",
+    "name": "name app",
+    "description": "description",
+    "author": {
+      "name": "ftovar",
+      "href": "href value",
+      "email": "felix.godo"
+    },
+    "version": {
+      "number": "1.0.0",
+      "code": "1.0.0"
+    }
+  },
   "deployment": {
     "distributions": [
       {
@@ -55,6 +69,16 @@
           "@beyond-js/svelte-widgets": "web",
           "@beyond-js/backend": "web",
           "@beyond-js/ssr": "web"
+        }
+      },
+      {
+        "name": "android",
+        "platform": "android",
+        "environment": "development",
+        "ports": {
+          "bundles": 6060,
+          "http": 6061,
+          "inspect": 6062
         }
       }
     ]

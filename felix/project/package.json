@@ -6,13 +6,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^18.0.12",
-    "@types/react-dom": "^18.0.5",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "socket.io-client": "^4.5.2",
     "socket.io-parser": "4.0.4"
   },
   "devDependencies": {
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5"
   }
 }

@@ -21,12 +21,10 @@
   "libraries": {
     "imports": [
       "@beyond-js/kernel",
-      "@beyond-js/widgets",
       "@beyond-js/backend",
-      "@beyond-js/react-widgets",
-      "@beyond-js/vue-widgets",
-      "@beyond-js/svelte-widgets",
-      "@beyond-js/ssr"
+      "@beyond-js/widgets",
+      "@beyond-js/ssr",
+      "@beyond-js/react-widgets"
     ]
   },
   "deployment": {
@@ -51,6 +49,27 @@
           "bundles": 5053,
           "http": 5054,
           "inspect": 5055
+        }
+      },
+      {
+        "name": "web.build",
+        "platform": "web",
+        "environment": "development",
+        "backend": "backend.build",
+        "ports": {
+          "bundles": 6060,
+          "http": 6061,
+          "inspect": 6062
+        }
+      },
+      {
+        "name": "backend.build",
+        "platform": "backend",
+        "environment": "development",
+        "ports": {
+          "bundles": 6063,
+          "http": 6064,
+          "inspect": 6065
         }
       }
     ]
