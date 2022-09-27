@@ -1,0 +1,12 @@
+{
+  "platforms": [
+    "web"
+  ],
+  "start": {
+    "ts": {
+      "files": [
+        "routing.ts"
+      ]
+    }
+  }
+}

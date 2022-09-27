@@ -24,12 +24,9 @@
   "libraries": {
     "imports": [
       "@beyond-js/kernel",
-      "@beyond-js/widgets",
-      "@beyond-js/react-widgets",
-      "@beyond-js/vue-widgets",
-      "@beyond-js/svelte-widgets",
       "@beyond-js/backend",
-      "@beyond-js/ssr"
+      "@beyond-js/widgets",
+      "@beyond-js/react-widgets"
     ]
   },
   "cordova": {
