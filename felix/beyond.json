@@ -7,6 +7,7 @@
     "../../workspace/inspect/project.json",
     "../../workspace/plm/project.json",
     "../../workspace/ui/project.json",
+    "../../@beyond-js/local/project.json",
     "../../@beyond-js/backend/project.json",
     "../../@beyond-js/kernel/project.json",
     "../../@beyond-js/react-widgets/react-18/project.json",

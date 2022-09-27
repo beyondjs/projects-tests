@@ -20,6 +20,7 @@
   },
   "libraries": {
     "imports": [
+      "@beyond-js/local",
       "@beyond-js/kernel",
       "@beyond-js/backend",
       "@beyond-js/widgets",
