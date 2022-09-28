@@ -1,20 +1,10 @@
 {
-  "name": "home",
-  "platforms": [
-    "backend",
-    "web"
-  ],
-  "bridge": {
-    "path": "bridge",
-    "files": [
-      "*"
-    ]
-  },
+  "name": "welcome",
   "widget": {
     "is": "page",
-    "route": "/",
+    "route": "/welcome",
     "element": {
-      "name": "home-page"
+      "name": "welcome-page"
     },
     "sass": {
       "path": "sass",

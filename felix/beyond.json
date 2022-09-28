@@ -2,7 +2,6 @@
   "applications": [
     "web-backend/project.json",
     "project/project.json",
-    "tutorial-local/project.json",
     "../../workspace/project/project.json",
     "../../workspace/inspect/project.json",
     "../../workspace/plm/project.json",
