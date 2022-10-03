@@ -11,19 +11,8 @@
     ]
   },
   "modules": {
-    "path": "modules",
+    "path": "",
     "externals": {}
-  },
-  "libraries": {
-    "imports": [
-      "@beyond-js/kernel",
-      "@beyond-js/widgets",
-      "@beyond-js/react-widgets",
-      "@beyond-js/vue-widgets",
-      "@beyond-js/svelte-widgets",
-      "@beyond-js/backend",
-      "@beyond-js/ssr"
-    ]
   },
   "deployment": {
     "distributions": [
@@ -42,6 +31,16 @@
           "@beyond-js/svelte-widgets": "web",
           "@beyond-js/backend": "web",
           "@beyond-js/ssr": "web"
+        }
+      },
+      {
+        "name": "backend",
+        "environment": "development",
+        "platform": "backend",
+        "ports": {
+          "bundles": 5053,
+          "http": 5054,
+          "inspect": 5055
         }
       }
     ]
