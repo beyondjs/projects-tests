@@ -1,10 +1,11 @@
 [
-  "/feranda/project.json",
-  "/test-tres/project.json",
-  "/prueba 2/project.json",
-  "/Prueba 1/project.json",
-  "/ddd1/project.json",
-  "/123/project.json",
-  "/caracas/project.json",
-  "/test/project.json"
+  "/caracas1/project.json",
+  "/test/project.json",
+  "../../../beyond/@beyond-js/backend/project.json",
+  "../../../beyond/@beyond-js/kernel/project.json",
+  "../../../beyond/@beyond-js/react-widgets/react-18/project.json",
+  "../../../beyond/@beyond-js/ssr/project.json",
+  "../../../beyond/@beyond-js/svelte-widgets/project.json",
+  "../../../beyond/@beyond-js/vue-widgets/project.json",
+  "../../../beyond/@beyond-js/widgets/project.json"
 ]
