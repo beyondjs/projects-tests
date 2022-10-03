@@ -1,5 +1,8 @@
 {
   "name": "layout/main",
+  "platforms": [
+    "web"
+  ],
   "widget": {
     "is": "layout",
     "element": {

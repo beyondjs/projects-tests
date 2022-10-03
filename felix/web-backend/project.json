@@ -23,7 +23,6 @@
       "@beyond-js/kernel",
       "@beyond-js/backend",
       "@beyond-js/widgets",
-      "@beyond-js/ssr",
       "@beyond-js/react-widgets"
     ]
   },
@@ -38,8 +37,7 @@
           "bundles": 5050,
           "http": 5051,
           "inspect": 5052
-        },
-        "default": true
+        }
       },
       {
         "name": "backend",
@@ -49,27 +47,6 @@
           "bundles": 5053,
           "http": 5054,
           "inspect": 5055
-        }
-      },
-      {
-        "name": "web.build",
-        "platform": "web",
-        "environment": "development",
-        "backend": "backend.build",
-        "ports": {
-          "bundles": 6060,
-          "http": 6061,
-          "inspect": 6062
-        }
-      },
-      {
-        "name": "backend.build",
-        "platform": "backend",
-        "environment": "development",
-        "ports": {
-          "bundles": 6063,
-          "http": 6064,
-          "inspect": 6065
         }
       }
     ]
