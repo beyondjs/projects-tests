@@ -44,6 +44,7 @@
         "name": "backend",
         "platform": "backend",
         "environment": "development",
+        "host": "prueba-API.com",
         "ports": {
           "bundles": 5053,
           "http": 5054,
