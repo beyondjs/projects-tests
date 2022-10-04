@@ -1,23 +1,25 @@
+const {Bundle, TxtBundle, Transversal} = require('beyond/bundler-helpers');
+
 module.exports = [{
     name: 'txt-menu',
     extname: ['.js'],
     multilanguage: true,
     bundle: {
         processors: ['txt'],
-        Bundle: global.TxtBundle,
+        Bundle: TxtBundle,
         template: true
     },
     transversal: {
-        Transversal: global.Transversal,
+        Transversal: Transversal,
     }
 }, {
     name: 'txt-start',
     extname: ['.js'],
     bundle: {
         processors: ['ts'],
-        Bundle: global.Bundle
+        Bundle: Bundle
     },
     transversal: {
-        Transversal: global.Transversal,
+        Transversal: Transversal,
     }
 }];
