@@ -1,0 +1,5 @@
+#page {
+  width: sum(150px, 30px, 100px);
+  background: red;
+  color: var(--secondary-color);
+}

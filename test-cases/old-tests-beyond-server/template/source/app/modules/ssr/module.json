@@ -1,0 +1,11 @@
+{
+  "page": {
+    "route": "/ssr",
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

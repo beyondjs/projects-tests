@@ -1,0 +1,29 @@
+{
+  "page": {
+    "route": "/welcome",
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "path": "styles",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "txt": {
+    "multilanguage": true,
+    "path": "txt",
+    "files": [
+      "*"
+    ]
+  },
+  "start": {
+    "ts": {
+      "files": "start.ts"
+    }
+  }
+}

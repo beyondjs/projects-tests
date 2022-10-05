@@ -1,0 +1,10 @@
+{
+  "developer": "test",
+  "name": "weather",
+  "bundle": "ts",
+  "path": "./client",
+  "files": "*",
+  "backend": {
+    "path": "./backend"
+  }
+}

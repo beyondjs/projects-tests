@@ -1,0 +1,24 @@
+{
+  "welcome": {
+    "page": {
+      "path": "welcome/editado",
+      "scss": {
+        "files": [
+          "primera.scss",
+          "file-nuevo-add.scss"
+        ]
+      }
+    },
+    "txt": {
+      "path": "welcome/txt/editado",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "static-test": {
+    "static": {
+      "images/jida.png": "images/jida-red.png"
+    }
+  }
+}

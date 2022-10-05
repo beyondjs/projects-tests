@@ -1,0 +1,6 @@
+{
+  "applications": [
+    "empty-app/application.json"
+  ],
+  "libraries": []
+}
