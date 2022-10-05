@@ -1,7 +1,7 @@
 {
   "name": "auth",
   "platforms": [
-    "backend"
+    "*"
   ],
   "bridge": {
     "path": "bridge",

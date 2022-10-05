@@ -20,6 +20,7 @@
   },
   "libraries": {
     "imports": [
+      "@beyond-js/local",
       "@beyond-js/kernel",
       "@beyond-js/backend",
       "@beyond-js/widgets",
@@ -43,6 +44,7 @@
         "name": "backend",
         "platform": "backend",
         "environment": "development",
+        "host": "prueba-API.com",
         "ports": {
           "bundles": 5053,
           "http": 5054,
