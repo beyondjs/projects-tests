@@ -1,0 +1,8 @@
+{
+  "developer": "example",
+  "name": "dynamic",
+  "bundle": "ts",
+  "files": [
+    "*"
+  ]
+}

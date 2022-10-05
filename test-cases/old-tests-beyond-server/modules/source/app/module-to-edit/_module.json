@@ -1,0 +1,24 @@
+{
+  "server": "server",
+  "name": "test-3",
+  "developer": "jrodriguez",
+  "title": "Un titulo de ejemplo",
+  "description": "Una descripcion de ejemplo para test-3",
+  "page": {
+    "route": "/",
+    "ts": {
+      "path": "ts",
+      "files": "*"
+    },
+    "scss": {
+      "path": "scss",
+      "dom": true,
+      "files": "*"
+    }
+  },
+  "txt": {
+    "path": "txt",
+    "multilanguage": true,
+    "files": "texts.json"
+  }
+}

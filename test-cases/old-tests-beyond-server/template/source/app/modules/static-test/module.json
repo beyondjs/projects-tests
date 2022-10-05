@@ -1,0 +1,13 @@
+{
+  "page": {
+    "route": "/static-test",
+    "ts": {
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "static": {
+    "includes": "images"
+  }
+}

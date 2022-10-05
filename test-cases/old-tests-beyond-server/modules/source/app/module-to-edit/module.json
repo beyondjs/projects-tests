@@ -1,0 +1,26 @@
+{
+  "name": "test-3",
+  "developer": "jrodriguez",
+  "title": "Prueba de edicion...",
+  "description": "Una descripcion de ejemplo para test-3",
+  "page": {
+    "route": "/",
+    "ts": {
+      "transpile": false,
+      "path": "ts",
+      "files": "*"
+    },
+    "scss": {
+      "dom": true,
+      "path": "scss",
+      "files": "*"
+    }
+  },
+  "txt": {
+    "multilanguage": true,
+    "path": "txt",
+    "files": [
+      "*"
+    ]
+  }
+}

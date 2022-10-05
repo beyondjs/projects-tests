@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "scope": "caracas1",
+  "name": "caracas1",
+  "template": "template/template.json",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "",
+    "externals": {}
+  },
+  "deployment": {
+    "distributions": []
+  }
+}

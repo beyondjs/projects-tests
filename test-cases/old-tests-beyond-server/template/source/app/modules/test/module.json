@@ -1,0 +1,28 @@
+{
+  "backend": {
+    "path": "./backend"
+  },
+  "page": {
+    "route": "/tests",
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    },
+    "scss": {
+      "dom": true,
+      "path": "styles",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "txt": {
+    "multilanguage": true,
+    "path": "txt",
+    "files": [
+      "*"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "developer": "beyond",
+  "name": "menu",
+  "start": {
+    "ts": {
+      "files": "start.ts"
+    }
+  },
+  "static": {
+    "includes": "images"
+  },
+  "backend": {
+    "path": "backend"
+  }
+}

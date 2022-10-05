@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "name": "prueba-1",
+  "port": 3050,
+  "description": "alguna descripcion distinta 22",
+  "template": "template/template.json"
+}

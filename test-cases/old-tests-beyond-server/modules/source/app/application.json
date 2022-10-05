@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "name": "prueba-1",
+  "port": 4040,
+  "template": "template/template.json"
+}

@@ -1,0 +1,18 @@
+{
+  "application": {
+    "processor": "scss",
+    "path": "application/editado",
+    "files": [
+      "*"
+    ]
+  },
+  "processors": {
+    "scss": {
+      "path": "processor/editado",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "overwrites": "overwrites/overwrites.json"
+}

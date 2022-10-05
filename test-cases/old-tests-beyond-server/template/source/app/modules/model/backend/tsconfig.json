@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": [
+        "/Users/henrybox/Documents/BeyondJS/beyond/applications/react-transition-group/backend/*"
+      ]
+    },
+    "outDir": "dist"
+  },
+  "include": [
+    "weather.ts"
+  ],
+  "references": [
+    {
+      "path": "/Users/henrybox/Documents/BeyondJS/beyond/applications/react-transition-group/backend"
+    }
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

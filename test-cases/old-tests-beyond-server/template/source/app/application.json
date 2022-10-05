@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "title": "React Transition Group 1",
+  "languages": [
+    "eng"
+  ],
+  "name": "react-transition-group",
+  "port": "8080",
+  "description": "Aplicación de prueba del equipo de BeyondJS.",
+  "template": "template/template.json",
+  "modules": {
+    "path": "modules",
+    "externals": {
+      "react": {
+        "development": "umd/react.development.js",
+        "production": "umd/react.production.min.js"
+      },
+      "react-dom": {
+        "development": "umd/react-dom.development.js",
+        "production": "umd/react-dom.production.min.js"
+      },
+      "react-transition-group": {
+        "development": "dist/react-transition-group.js",
+        "production": "dist/react-transition-group.min.js"
+      }
+    }
+  },
+  "connect": true,
+  "backend": {
+    "core": "./backend"
+  },
+  "static": {
+    "includes": [
+      "bootstrap.min.css",
+      "bootstrap.min.css.map",
+      "./images"
+    ]
+  }
+}
