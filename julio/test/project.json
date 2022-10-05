@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "scope": "bb1",
-  "name": "bb1",
+  "scope": "julio",
+  "name": "test",
   "template": "template/template.json",
   "languages": {
     "default": "en",
@@ -11,55 +11,36 @@
     ]
   },
   "modules": {
-    "path": "E:\\workspace\\beyond\\beyond\\packages\\tests\\julio\\test\\modules",
+    "path": "",
     "externals": {}
   },
   "deployment": {
     "distributions": [
       {
+        "name": "web",
+        "environment": "development",
+        "platform": "web",
+        "ports": {
+          "bundles": 7000
+        },
+        "imports": {
+          "@beyond-js/kernel": "web",
+          "@beyond-js/widgets": "web",
+          "@beyond-js/react-widgets": "web",
+          "@beyond-js/vue-widgets": "web",
+          "@beyond-js/svelte-widgets": "web",
+          "@beyond-js/backend": "web",
+          "@beyond-js/ssr": "web"
+        }
+      },
+      {
         "name": "backend",
         "environment": "development",
         "platform": "backend",
         "ports": {
-          "http": 3500,
-          "bundles": 4000,
-          "inspect": 4500
-        }
-      },
-      {
-        "name": "89",
-        "environment": "development",
-        "ssr": "",
-        "platform": "android",
-        "ports": {
-          "bundles": 8500
-        },
-        "minify": {
-          "html": false,
-          "css": false,
-          "js": false
-        },
-        "bundles": {
-          "mode": "sjs"
-        }
-      },
-      {
-        "name": "79550",
-        "environment": "development",
-        "ssr": "",
-        "platform": "ssr",
-        "ports": {
-          "http": 5644,
-          "inspect": 7933,
-          "bundles": 9600
-        },
-        "minify": {
-          "html": false,
-          "css": false,
-          "js": false
-        },
-        "bundles": {
-          "mode": "sjs"
+          "bundles": 5053,
+          "http": 5054,
+          "inspect": 5055
         }
       }
     ]
