@@ -1,4 +1,6 @@
 [
+  "/react-sin-dependencias/project.json",
+  "/prueba-1/project.json",
   "/caracas1/project.json",
   "/test/project.json",
   "../../../beyond/@beyond-js/backend/project.json",
@@ -7,5 +9,6 @@
   "../../../beyond/@beyond-js/ssr/project.json",
   "../../../beyond/@beyond-js/svelte-widgets/project.json",
   "../../../beyond/@beyond-js/vue-widgets/project.json",
-  "../../../beyond/@beyond-js/widgets/project.json"
+  "../../../beyond/@beyond-js/widgets/project.json",
+  "../../../beyond/@beyond-js/local/project.json"
 ]

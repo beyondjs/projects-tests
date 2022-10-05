@@ -10,9 +10,17 @@
       "es"
     ]
   },
-  "modules": {
+  "modules":  {
     "path": "",
     "externals": {}
+  },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/backend",
+      "@beyond-js/widgets",
+      "@beyond-js/react-widgets"
+    ]
   },
   "deployment": {
     "distributions": [
