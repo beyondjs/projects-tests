@@ -1,18 +1,5 @@
 {
-  "applications": [
-    "web-backend/project.json",
-    "project/project.json",
-    "../../workspace/project/project.json",
-    "../../workspace/inspect/project.json",
-    "../../workspace/plm/project.json",
-    "../../workspace/ui/project.json",
-    "../../@beyond-js/local/project.json",
-    "../../@beyond-js/backend/project.json",
-    "../../@beyond-js/kernel/project.json",
-    "../../@beyond-js/react-widgets/react-18/project.json",
-    "../../@beyond-js/ssr/project.json",
-    "../../@beyond-js/svelte-widgets/project.json",
-    "../../@beyond-js/vue-widgets/project.json",
-    "../../@beyond-js/widgets/project.json"
-  ]
+  "applications": "projects.json",
+  "bundles": {},
+  "libraries": []
 }
