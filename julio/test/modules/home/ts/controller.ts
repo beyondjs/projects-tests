@@ -3,7 +3,4 @@ import {Page} from "./views";
 
 export /*bundle*/
 class Controller extends PageReactWidgetController {
-    get Widget() {
-        return Page;
-    }
-}
+    get Widget

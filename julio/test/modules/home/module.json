@@ -1,9 +1,13 @@
 {
   "name": "home",
+  "platforms": [
+    "web"
+  ],
   "widget": {
     "is": "page",
-    "route": "/"
-      "name": "home-page"
+    "route": "/",
+    "element": {
+      "name": "home"
     },
     "sass": {
       "path": "sass",
