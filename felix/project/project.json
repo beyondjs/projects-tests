@@ -51,9 +51,7 @@
         "platform": "web",
         "environment": "development",
         "ports": {
-          "bundles": 8080,
-          "http": 8081,
-          "inspect": 8082
+          "bundles": 8080
         },
         "bundles": {
           "mode": "sjs"
@@ -77,6 +75,21 @@
           "bundles": 6060,
           "http": 6061,
           "inspect": 6062
+        }
+      },
+      {
+        "name": "web.tsc",
+        "platform": "web",
+        "environment": "development",
+        "ports": {
+          "bundles": 8085
+        },
+        "bundles": {
+          "mode": "sjs"
+        },
+        "maps": "internal",
+        "ts": {
+          "compiler": "tsc"
         }
       }
     ]

@@ -1,5 +1,8 @@
 {
   "name": "home",
+  "platforms": [
+    "web"
+  ],
   "widget": {
     "is": "page",
     "route": "/",
