@@ -8,7 +8,7 @@
     ]
   },
   "modules": {
-    "path": "modules",
+    "path": "",
     "externals": {}
   },
   "deployment": {

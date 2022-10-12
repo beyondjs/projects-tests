@@ -1,14 +1,7 @@
-const engine = `../../../../beyond/engine`;
-const path = `${engine}/lib/inspect/service/builder/models`;
-
 const execute = async () => {
-    require(`${engine}/lib/global`);
-    /**
-     * Instance the template objects with a path
-     */
-    require(`${path}/templates`).get('../../../lib/templates');
+
+    const {Project} = require('./imports');
     const {skeleton, dist} = require('./validator-test');
-    const {Validator, Project} = require(`${path}`);
     // const validator = new Validator();
 
     const project = new Project('./');
