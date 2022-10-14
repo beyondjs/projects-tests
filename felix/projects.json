@@ -1,10 +1,6 @@
 [
   "web-backend/project.json",
   "project/project.json",
-  "../../workspace/project/project.json",
-  "../../workspace/inspect/project.json",
-  "../../workspace/plm/project.json",
-  "../../workspace/ui/project.json",
   "../../@beyond-js/local/project.json",
   "../../@beyond-js/backend/project.json",
   "../../@beyond-js/kernel/project.json",
