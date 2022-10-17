@@ -1,0 +1,27 @@
+{
+  "name": "cracas12",
+  "description": "awefawefae",
+  "code": {
+    "sass": {
+      "path": "/code/sass",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/code/ts",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "bridge": {
+    "path": "bridge",
+    "files": [
+      "*"
+    ]
+  },
+  "platforms": [
+    "*"
+  ]
+}

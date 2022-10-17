@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "scope": "prueba5",
+  "name": "prueba5",
+  "layout": "main-layout",
+  "template": "template/template.json",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": ""
+  },
+  "deployment": {
+    "distributions": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "scope": "test6",
+  "name": "test6",
+  "layout": "main-layout",
+  "template": "template/template.json",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": ""
+  },
+  "deployment": {
+    "distributions": []
+  }
+}

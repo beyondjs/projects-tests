@@ -1,0 +1,9 @@
+{
+  "name": "parana",
+  "ts": {
+    "path": "ts",
+    "files": [
+      "*"
+    ]
+  }
+}
