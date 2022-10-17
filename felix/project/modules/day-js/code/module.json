@@ -1,0 +1,11 @@
+{
+  "name": "day-code",
+  "code": {
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

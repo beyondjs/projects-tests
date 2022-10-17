@@ -1,5 +1,4 @@
 [
-  "web-backend/project.json",
   "project/project.json",
   "../../@beyond-js/local/project.json",
   "../../@beyond-js/backend/project.json",
