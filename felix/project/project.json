@@ -50,21 +50,12 @@
         "name": "web",
         "platform": "web",
         "environment": "development",
+        "maps": "internal",
         "ports": {
           "bundles": 8080
         },
         "bundles": {
           "mode": "sjs"
-        },
-        "maps": "internal",
-        "imports": {
-          "@beyond-js/kernel": "web",
-          "@beyond-js/widgets": "web",
-          "@beyond-js/react-widgets": "web",
-          "@beyond-js/vue-widgets": "web",
-          "@beyond-js/svelte-widgets": "web",
-          "@beyond-js/backend": "web",
-          "@beyond-js/ssr": "web"
         }
       },
       {
