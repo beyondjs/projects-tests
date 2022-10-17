@@ -7,22 +7,22 @@
     "node"
   ],
   "widget": {
-    "is": "page",
     "route": "/",
     "sass": {
-      "path": "/widget/sass",
+      "path": "sass",
       "files": [
         "*"
       ]
     },
     "ts": {
-      "path": "/widget/ts",
+      "path": "ts",
       "files": [
         "*"
       ]
     },
     "element": {
-      "name": "home-app"
+      "name": "home-app",
+      "is": "page"
     }
   }
 }

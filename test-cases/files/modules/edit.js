@@ -20,10 +20,11 @@
         const response = await module.save({
             widget: {is: 'layout'},
             start: {processors: ["ts"]},
+            page: {processors: ["ts"]},
             ts: {processors: ["ts"]},
-            platforms: [{}, "android"]
+            platforms: ["ios", "android"]
         });
-        console.log("ready", project.modulesPath);
+        console.log("ready", response, project.modulesPath);
 
     }
     catch (e) {

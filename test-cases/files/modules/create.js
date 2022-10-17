@@ -1,12 +1,8 @@
 require('colors');
-const path = '../../../../lib/dashboard/libraries/dashboard/service/builder/models';
+const {join} = require('path');
 (async () => {
-    require('../../../../lib/global');
-    /**
-     * Instance the template objects with a path
-     */
-    require(`${path}/templates`).get('../../../../lib/templates');
-    const {Project, Module} = require(`${path}`);
+    const {Project, Module} = require('../imports');
+
     const wd = require('path').join(process.cwd(), 'app');
     const project = new Project(wd);
     /**
@@ -23,12 +19,13 @@ const path = '../../../../lib/dashboard/libraries/dashboard/service/builder/mode
     };
 
     console.log(`creating`.blue, `${name}`.bgBlack, 'module'.blue);
-    const module = new Module(project.modulesPath, specs.name);
+    const module = new Module(join(project.modulesPath, specs.name));
     try {
         /**
          * Es necesario cargar el módulo aunque no exista.
          */
         await module.load();
+        console.log(10, module.exists)
         if (module.exists) {
             return console.log('the module already exists'.red);
         }
