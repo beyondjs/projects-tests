@@ -4,7 +4,7 @@
       "../bundles"
     ]
   },
-  "applications": [
+  "packages": [
     "./project.json",
     "../../../@beyond-js/kernel/project.json",
     "../../../@beyond-js/local/project.json",
