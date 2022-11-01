@@ -1,9 +1,0 @@
-{
-  "start": {
-    "ts": {
-      "files": [
-        "routing.ts"
-      ]
-    }
-  }
-}

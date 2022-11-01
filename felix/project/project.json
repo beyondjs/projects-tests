@@ -24,8 +24,8 @@
   "libraries": {
     "imports": [
       "@beyond-js/local",
-      "@beyond-js/kernel",
       "@beyond-js/backend",
+      "@beyond-js/kernel",
       "@beyond-js/widgets",
       "@beyond-js/react-widgets"
     ]
