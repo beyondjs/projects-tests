@@ -18,15 +18,6 @@
   "modules": {
     "path": "modules"
   },
-  "libraries": {
-    "imports": [
-      "@beyond-js/local",
-      "@beyond-js/kernel",
-      "@beyond-js/backend",
-      "@beyond-js/widgets",
-      "@beyond-js/react-widgets"
-    ]
-  },
   "deployment": {
     "distributions": [
       {
@@ -38,6 +29,9 @@
           "bundles": 5050,
           "http": 5051,
           "inspect": 5052
+        },
+        "bundles": {
+          "mode": "sjs"
         }
       },
       {

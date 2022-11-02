@@ -21,15 +21,6 @@
       "images"
     ]
   },
-  "libraries": {
-    "imports": [
-      "@beyond-js/local",
-      "@beyond-js/backend",
-      "@beyond-js/kernel",
-      "@beyond-js/widgets",
-      "@beyond-js/react-widgets"
-    ]
-  },
   "cordova": {
     "id": "id app",
     "name": "name app",

@@ -1,5 +1,8 @@
 {
   "name": "welcome",
+  "platforms": [
+    "web"
+  ],
   "widget": {
     "is": "page",
     "route": "/welcome",
