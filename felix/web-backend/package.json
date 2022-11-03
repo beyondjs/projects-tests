@@ -9,7 +9,6 @@
     "react-dom": "^18.1.0",
     "socket.io-client": "^4.5.2",
     "socket.io": "^4.3.1",
-    "@beyond-js/kernel": "^0.1.0",
     "@beyond-js/backend": "^0.1.0",
     "@beyond-js/local": "^0.1.0",
     "@beyond-js/widgets": "^0.1.0",

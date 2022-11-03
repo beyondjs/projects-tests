@@ -26,9 +26,7 @@
         "environment": "development",
         "backend": "backend",
         "ports": {
-          "bundles": 5050,
-          "http": 5051,
-          "inspect": 5052
+          "bundles": 5050
         },
         "bundles": {
           "mode": "sjs"
@@ -40,9 +38,9 @@
         "environment": "development",
         "host": "prueba-API.com",
         "ports": {
-          "bundles": 5053,
-          "http": 5054,
-          "inspect": 5055
+          "bundles": 5051,
+          "http": 5052,
+          "inspect": 5053
         }
       }
     ]
