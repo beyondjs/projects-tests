@@ -1,0 +1,13 @@
+{
+  "name": "@tests/node-pkg",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@beyond-js/backend": "^0.1.0"
+  }
+}
