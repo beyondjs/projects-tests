@@ -1,0 +1,5 @@
+{
+  "plugin": "test",
+  "subpath": "home",
+  "files": "*"
+}

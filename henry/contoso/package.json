@@ -1,0 +1,14 @@
+{
+  "name": "contoso",
+  "version": "0.0.1",
+  "modules": {
+    "path": "./modules"
+  },
+  "dependencies": {
+    "react-dom": "^18.2.0"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./calculator": "./lib/calculator/index.js"
+  }
+}

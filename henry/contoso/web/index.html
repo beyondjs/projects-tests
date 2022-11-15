@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Beyond Application</title>
+
+    <script src="./s.js"></script>
+    <script src="./dependencies.js?hmr&repository=8080"></script>
+    <script>
+        (async () => {
+            const {message} = await System.import('contoso/bundle');
+            console.log(message);
+            // const ReactDOM = (await System.import('contoso/bundle')).default;
+            // const React = (await System.import('react')).default;
+            // const root = ReactDOM.createRoot(document.getElementById('root'));
+            // root.render(React.createElement('h1', null, 'Hello, world!'));
+        })().catch(exc => console.error(exc.stack));
+    </script>
+</head>
+
+<body>
+<div id="root"></div>
+</body>
+</html>
