@@ -1,13 +1,9 @@
 {
-  "name": "welcome",
-  "platforms": [
-    "web"
-  ],
+  "name": "layout/main",
   "widget": {
-    "is": "page",
-    "route": "/welcome",
+    "is": "layout",
     "element": {
-      "name": "welcome-page"
+      "name": "main-layout"
     },
     "sass": {
       "path": "sass",

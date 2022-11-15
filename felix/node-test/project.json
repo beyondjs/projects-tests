@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "scope": "tests",
+  "name": "node-pkg",
+  "title": "Node Test",
+  "description": "Node JS Basic application",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "modules"
+  },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/local",
+      "@beyond-js/backend"
+    ]
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "node",
+        "environment": "development",
+        "ssr": "",
+        "platform": "node",
+        "ports": {
+          "bundles": 9090,
+          "inspect": 9091
+        }
+      }
+    ]
+  }
+}

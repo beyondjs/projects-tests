@@ -1,13 +1,10 @@
 {
-  "name": "welcome",
-  "platforms": [
-    "web"
-  ],
+  "name": "home",
   "widget": {
     "is": "page",
-    "route": "/welcome",
+    "route": "/",
     "element": {
-      "name": "welcome-page"
+      "name": "home-page"
     },
     "sass": {
       "path": "sass",

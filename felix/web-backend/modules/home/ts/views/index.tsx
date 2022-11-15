@@ -27,6 +27,7 @@ function View(): JSX.Element {
         try {
             event.preventDefault();
             const response = await model.login(username, password);
+            console.log('response', response)
             if (response.data?.valid) {
                 console.log('valid data');
                 routing.pushState('/welcome');

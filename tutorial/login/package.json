@@ -1,14 +1,12 @@
 {
-  "name": "@jida/web-backend",
+  "name": "@testing/login",
   "version": "0.0.1",
   "description": "",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "socket.io-client": "^4.5.2",
-    "socket.io": "^4.3.1",
     "@beyond-js/backend": "^0.1.0",
-    "@beyond-js/local": "^0.1.0",
+    "@beyond-js/kernel": "^0.1.0",
     "@beyond-js/widgets": "^0.1.0",
     "@beyond-js/react-widgets": "^18.18.2"
   }
