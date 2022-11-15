@@ -6,7 +6,7 @@
     "port": 8081,
     "dependencies": {
       "contoso": "0.0.1",
-      "@beyond-js/kernel": "0.0.22"
+      "@beyond-js/local": "0.1.0"
     }
   },
   {
