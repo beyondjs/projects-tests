@@ -1,0 +1,16 @@
+{
+  "name": "react-counter",
+  "bundle": "code",
+  "sass": {
+    "path": "/widget/scss",
+    "files": [
+      "*"
+    ]
+  },
+  "ts": {
+    "path": "/widget/ts",
+    "files": [
+      "*"
+    ]
+  }
+}
