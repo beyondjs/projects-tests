@@ -3,5 +3,8 @@
   "subpath": "message",
   "ts": {
     "files": "*"
+  },
+  "sass": {
+    "files": "*"
   }
 }
