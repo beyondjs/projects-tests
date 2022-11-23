@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "scope": "test",
-  "name": "project-app",
+  "scope": "tests",
+  "name": "web-app",
   "title": "Aplicación de pruebas",
   "description": "App con módulos básicos para pruebas en BeyondJS",
   "layout": "main-layout",
@@ -42,6 +42,9 @@
         "platform": "web",
         "environment": "development",
         "maps": "internal",
+        "minify": {
+          "css": true
+        },
         "ports": {
           "bundles": 8080
         },

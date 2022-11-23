@@ -1,0 +1,17 @@
+{
+  "name": "@tests/testing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.8.0",
+    "dayjs": "^1.11.5",
+    "react-select": "^5.4.0",
+    "socket.io-client": "^4.5.3",
+    "@beyond-js/widgets": "^0.1.0",
+    "@beyond-js/react-widgets": "^18.18.2",
+    "@beyond-js/counter-react-widget": "^1.0.2"
+  }
+}

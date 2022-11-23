@@ -1,6 +1,6 @@
 [
-  "/project/project.json",
+  "/web/project.json",
   "/web-backend/project.json",
-  "/node-test/project.json",
+  "/node/project.json",
   "/express/project.json"
 ]

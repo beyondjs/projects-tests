@@ -1,5 +1,9 @@
 import {PageReactWidgetController} from '@beyond-js/react-widgets/page';
 import {Page} from "./views";
+import {routing} from '@beyond-js/kernel/routing';
+
+console.log(1, routing)
+
 
 export /*bundle*/
 class Controller extends PageReactWidgetController {

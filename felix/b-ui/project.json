@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "scope": "beyond",
+  "version": "1.0.0",
+  "scope": "tests",
   "name": "ui",
   "title": "Beyond components to create web projects",
   "languages": {

@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Auth} from "@jida/web-backend-app/auth";
+import {Auth} from "@tests/web-backend-app/auth";
 import {routing} from "@beyond-js/kernel/routing";
 
 interface IForm {
