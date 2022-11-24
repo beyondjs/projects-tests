@@ -35,6 +35,13 @@
       "code": "1.0.0"
     }
   },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/widgets",
+      "@beyond-js/react-widgets"
+    ]
+  },
   "deployment": {
     "distributions": [
       {
