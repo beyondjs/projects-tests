@@ -1,0 +1,5 @@
+{
+  "subpath": "message",
+  "plugin": "ts",
+  "files": "*"
+}
