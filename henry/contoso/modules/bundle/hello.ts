@@ -2,3 +2,4 @@
 // import {WidgetController} from '@beyond-js/widgets/render';
 
 export /*bundle*/ const message = 'hello world';
+export /*bundle*/ default 'this is the default';
