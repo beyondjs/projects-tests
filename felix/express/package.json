@@ -1,5 +1,5 @@
 {
-  "name": "$[scope]$[name]",
+  "name": "@tests/express-app",
   "version": "0.0.1",
   "description": "",
   "author": "",
