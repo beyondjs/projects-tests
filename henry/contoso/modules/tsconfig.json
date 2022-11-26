@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "/Users/henrybox/Documents/beyond/engine/.beyond/types",
+    "paths": {
+      "contoso/*": [
+        "contoso@0.0.1/*"
+      ],
+      "message/*": [
+        "message@0.0.2/*"
+      ]
+    }
+  }
+}

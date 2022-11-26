@@ -1,3 +1,3 @@
-import {message} from 'contoso/message';
+import {reexportedMessageFromNS} from 'contoso/message';
 
-export /*bundle*/ const consumer = message;
+export /*bundle*/ const consumer = reexportedMessageFromNS;
