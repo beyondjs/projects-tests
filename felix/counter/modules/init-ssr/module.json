@@ -1,0 +1,8 @@
+{
+  "name": "init-ssr",
+  "bundle": "start",
+  "platforms": "ssr",
+  "ts": {
+    "files": "start.ts"
+  }
+}
