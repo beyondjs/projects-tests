@@ -1,0 +1,25 @@
+{
+  "name": "counter-widget",
+  "widget": {
+    "element": {
+      "name": "counter-widget"
+    },
+    "render": {
+      "ssr": true,
+      "csr": true,
+      "sr": false
+    },
+    "sass": {
+      "path": "/widget/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

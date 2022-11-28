@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "scope": "beyond-test",
+  "name": "counter",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "./modules"
+  },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/local",
+      "@beyond-js/backend",
+      "@beyond-js/ssr",
+      "@beyond-js/widgets",
+      "@beyond-js/react-widgets"
+    ]
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "environment": "development",
+        "ssr": "ssr",
+        "ports": {
+          "bundles": 6500
+        }
+      },
+      {
+        "name": "ssr",
+        "platform": "ssr",
+        "environment": "development",
+        "ports": {
+          "bundles": 6551,
+          "http": 6552,
+          "inspect": 6553
+        }
+      }
+    ]
+  }
+}

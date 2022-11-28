@@ -1,0 +1,13 @@
+{
+  "name": "store-entries",
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "ssr"
+  ],
+  "ts": {
+    "path": "ts",
+    "files": "*"
+  }
+}
