@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "baseUrl": "../",
+    "paths": {
+      "contoso/*": [
+        "contoso@0.0.1/*"
+      ],
+      "message/*": [
+        "message@0.0.1/*"
+      ]
+    }
+  }
+}

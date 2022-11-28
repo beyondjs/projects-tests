@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "message.d.ts",
+  "sourceRoot": "../sources",
+  "sources": [
+    "mySource-x.ts"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AACA;AACA"
+}

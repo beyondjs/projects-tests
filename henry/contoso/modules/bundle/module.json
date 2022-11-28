@@ -1,6 +1,6 @@
 {
+  "subpath": "bundle",
   "plugin": "code",
-  "subpath": "message",
   "ts": {
     "files": "*"
   },
