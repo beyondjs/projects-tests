@@ -1,6 +1,7 @@
 import {routing} from "@beyond-js/kernel/routing";
 
 routing.redirect = async function redirect(uri): Promise<string> {
+    console.log(1, 'routing')
     if (uri.pathname === '/welcome' && !!localStorage.getItem('session')) {
         console.log(2, 'welcome logged')
         return '/welcome';
