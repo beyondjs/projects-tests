@@ -1,0 +1,9 @@
+.item {
+  padding: 1rem 2rem;
+  border: 1px solid #000000;
+  align-items: center;
+
+  &:hover, &.selected {
+    background: rgba(red, .3);
+  }
+}

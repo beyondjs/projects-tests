@@ -1,3 +1,3 @@
 import {listen} from '@beyond-js/ssr/listen';
 
-listen();
+listen('@beyond-test/counter', 6553);

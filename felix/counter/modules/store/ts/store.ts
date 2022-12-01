@@ -28,14 +28,11 @@ class Store extends Events implements IWidgetStore {
     }
 
     set(value: number) {
-        this.#value.count = value;
+        this.#value.count = value + 1;
         this.trigger('change');
-        console.log('SET',this.#value)
-        this.hydrate();
     }
 
     async fetch() {
-        console.log(`fetch: ${this.#loaded}`);
         this.#loading = true;
         this.trigger('change');
 
@@ -44,11 +41,11 @@ class Store extends Events implements IWidgetStore {
         this.#loading = false;
         this.#loaded = true;
         this.trigger('change');
-        console.log(`fetch: ${this.#loaded}`, this.#value);
+
+        console.log('store fetch')
     }
 
     hydrate(cached: IValue) {
-        console.log('hydrate', cached)
         this.#loading = false;
         this.#loaded = true;
         if (!cached) return;
@@ -57,7 +54,6 @@ class Store extends Events implements IWidgetStore {
     }
 
     toJSON() {
-        console.log('toJSON', this.#value)
         return this.#value;
     }
 }

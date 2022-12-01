@@ -19,7 +19,9 @@
       "@beyond-js/backend",
       "@beyond-js/ssr",
       "@beyond-js/widgets",
-      "@beyond-js/react-widgets"
+      "@beyond-js/react-widgets",
+      "@beyond-js/vue-widgets",
+      "@beyond-js/svelte-widgets"
     ]
   },
   "deployment": {
@@ -37,6 +39,7 @@
         "name": "ssr",
         "platform": "ssr",
         "environment": "development",
+        "host": "http://localhost:6553",
         "ports": {
           "bundles": 6551,
           "http": 6552,
