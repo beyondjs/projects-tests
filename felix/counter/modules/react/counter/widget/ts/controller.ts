@@ -1,6 +1,6 @@
 import {ReactWidgetController} from '@beyond-js/react-widgets/base';
 import {IWidgetStore} from '@beyond-js/widgets/controller';
-import {Store} from '@beyond-test/counter/store-entries';
+import {Store} from '@beyond-playground/counter-rendering/store-entries';
 import {Widget} from "./views";
 
 export /*bundle*/

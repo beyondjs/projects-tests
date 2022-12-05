@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Script</title>
+    <script src="https://unpkg.com/@beyond-js/kernel@0.1.1/vendor/s.js"></script>
+    <script src="require.js"></script>
+    <script>
+        window.__app_package = {
+            specifier: '@tests/amd',
+            vspecifier: '@tests/amd@1.0.0',
+            version: '1.0.0'
+        }
+        requirejs(["config", "auth.bridge"], function (config, auth) {
+            console.log(`config`,config);
+            console.log(`expose auth on window`);
+            window.auth = auth;
+        });
+    </script>
+</head>
+<body>
+<h1>Hi Script</h1>
+</body>
+</html>

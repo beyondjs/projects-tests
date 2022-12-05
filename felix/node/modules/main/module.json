@@ -1,0 +1,10 @@
+{
+  "name": "main",
+  "platforms": "node",
+  "ts": {
+    "path": "ts",
+    "files": [
+      "*"
+    ]
+  }
+}

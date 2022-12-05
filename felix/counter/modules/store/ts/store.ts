@@ -41,8 +41,6 @@ class Store extends Events implements IWidgetStore {
         this.#loading = false;
         this.#loaded = true;
         this.trigger('change');
-
-        console.log('store fetch')
     }
 
     hydrate(cached: IValue) {

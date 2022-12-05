@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "scope": "beyond-test",
-  "name": "counter",
+  "scope": "beyond-playground",
+  "name": "counter-rendering",
   "languages": {
     "default": "en",
     "supported": [

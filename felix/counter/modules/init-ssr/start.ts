@@ -1,3 +1,4 @@
 import {listen} from '@beyond-js/ssr/listen';
 
-listen('@beyond-test/counter', 6553);
+const port = process.env.PORT || 6553;
+listen('@beyond-playground/counter-rendering', port);
