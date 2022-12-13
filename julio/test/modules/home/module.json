@@ -1,28 +1,23 @@
 {
-  "name": "home",
-  "platforms": [
-    "ios",
-    "deno",
-    "web",
-    "node"
-  ],
-  "widget": {
-    "route": "/",
-    "sass": {
-      "path": "sass",
-      "files": [
-        "*"
-      ]
-    },
-    "ts": {
-      "path": "ts",
-      "files": [
-        "*"
-      ]
-    },
-    "element": {
-      "name": "home-app",
-      "is": "page"
+    "name": "home",
+    "platforms": ["ios", "deno", "web", "node"],
+    "widget": {
+        "route": "/",
+        "is": "page",
+        "element": {
+            "name": "home-app"
+        },
+        "sass": {
+            "path": "sass",
+            "files": ["*"]
+        },
+        "ts": {
+            "path": "ts",
+            "files": ["*"]
+        },
+        "mdx": {
+            "path": "mdx",
+            "files": ["*"]
+        }
     }
-  }
 }

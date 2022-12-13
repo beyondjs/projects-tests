@@ -1,13 +1,13 @@
 .page__container {
-  display: flex;
-  padding: 20px;
-  max-width: 1024px;
-  margin: 20px auto;
-  flex-direction: row;
-  background: var(--bg-element);
-  bakcground: $redawefawefawe;
+    display: flex;
+    padding: 20px;
+    max-width: 1024px;
+    margin: 20px auto;
+    flex-direction: row;
+    background: var(--bg-element);
+    bakcground: black;
 
-  .beyond {
-    color: #FF8056;
-  }
+    .beyond {
+        color: #ff8056;
+    }
 }
