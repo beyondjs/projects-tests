@@ -12,11 +12,11 @@
             "files": ["*"]
         },
         "ts": {
-            "path": "ts",
+            "path": "code",
             "files": ["*"]
         },
         "mdx": {
-            "path": "mdx",
+            "path": "code",
             "files": ["*"]
         }
     }
