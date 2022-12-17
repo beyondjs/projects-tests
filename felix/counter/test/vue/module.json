@@ -1,0 +1,22 @@
+{
+  "name": "example-vue",
+  "widget": {
+    "is": "page",
+    "route": "/vue",
+    "element": {
+      "name": "example-page-vue"
+    },
+    "vue": {
+      "path": "vue",
+      "files": "*"
+    },
+    "ts": {
+      "path": "vue",
+      "files": "*"
+    },
+    "sass": {
+      "path": "vue",
+      "files": "*"
+    }
+  }
+}

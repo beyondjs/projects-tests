@@ -1,0 +1,19 @@
+{
+  "name": "page-react",
+  "platforms": [
+    "web"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/react",
+    "element": {
+      "name": "page-react-page"
+    },
+    "ts": {
+      "path": "ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

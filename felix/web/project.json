@@ -35,6 +35,13 @@
       "code": "1.0.0"
     }
   },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/widgets",
+      "@beyond-js/react-widgets"
+    ]
+  },
   "deployment": {
     "distributions": [
       {
@@ -42,11 +49,11 @@
         "platform": "web",
         "environment": "development",
         "maps": "internal",
-        "minify": {
-          "css": true
-        },
         "ports": {
           "bundles": 8080
+        },
+        "minify": {
+          "css": true
         },
         "bundles": {
           "mode": "sjs"
@@ -57,9 +64,9 @@
         "platform": "android",
         "environment": "development",
         "ports": {
-          "bundles": 6060,
-          "http": 6061,
-          "inspect": 6062
+          "bundles": 6660,
+          "http": 6661,
+          "inspect": 6662
         }
       },
       {

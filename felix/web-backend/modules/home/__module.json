@@ -1,0 +1,31 @@
+{
+  "name": "auth-login",
+  "platforms": [
+    "web"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/auth/login",
+    "layout": "layout-login",
+    "element": {
+      "name": "login-page"
+    },
+    "sass": {
+      "path": "/widget/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    }
+  },
+  "txt": {
+    "path": "/widget/txt",
+    "multilanguage": true,
+    "files": "*"
+  }
+}

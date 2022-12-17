@@ -1,62 +1,48 @@
 {
-  "version": "1.0.0",
-  "scope": "julio",
-  "name": "test",
-  "template": "template/template.json",
-  "languages": {
-    "default": "en",
-    "supported": [
-      "en",
-      "es"
-    ]
-  },
-  "modules": {
-    "path": "modules",
-    "externals": {}
-  },
-  "static": {
-    "includes": [
-      "images"
-    ]
-  },
-  "libraries": {
-    "imports": [
-      "@beyond-js/local",
-      "@beyond-js/kernel",
-      "@beyond-js/backend",
-      "@beyond-js/widgets",
-      "@beyond-js/react-widgets"
-    ]
-  },
-  "deployment": {
-    "distributions": [
-      {
-        "name": "web",
-        "environment": "development",
-        "platform": "web",
-        "ports": {
-          "bundles": 7000
-        },
-        "imports": {
-          "@beyond-js/kernel": "web",
-          "@beyond-js/widgets": "web",
-          "@beyond-js/react-widgets": "web",
-          "@beyond-js/vue-widgets": "web",
-          "@beyond-js/svelte-widgets": "web",
-          "@beyond-js/backend": "web",
-          "@beyond-js/ssr": "web"
-        }
-      },
-      {
-        "name": "backend",
-        "environment": "development",
-        "platform": "backend",
-        "ports": {
-          "bundles": 5053,
-          "http": 5054,
-          "inspect": 5055
-        }
-      }
-    ]
-  }
+    "version": "1.0.0",
+    "scope": "julio",
+    "name": "test",
+    "template": "template/template.json",
+    "languages": {
+        "default": "en",
+        "supported": ["en", "es"]
+    },
+    "modules": {
+        "path": "modules",
+        "externals": {}
+    },
+    "static": {
+        "includes": ["images"]
+    },
+    "libraries": {
+        "imports": [
+            "@beyond-js/local",
+            "@beyond-js/kernel",
+            "@beyond-js/backend",
+            "@beyond-js/widgets",
+            "@beyond-js/react-widgets"
+        ]
+    },
+    "deployment": {
+        "distributions": [
+            {
+                "name": "web",
+                "environment": "development",
+                "platform": "web",
+                "ports": {
+                    "bundles": 7000
+                }
+            },
+            {
+                "name": "backend",
+                "environment": "development",
+                "platform": "backend",
+                "ports": {
+                    "bundles": 5053,
+                    "http": 5054,
+                    "inspect": 5055
+                }
+            }
+        ]
+    }
 }

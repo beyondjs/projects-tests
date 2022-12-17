@@ -1,13 +1,16 @@
 {
-  "name": "@test/test",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@beyond-js/kernel": "^0.0.20"
-  },
-  "devDependencies": {
-    "@beyond-js/backend": "^0.0.9"
-  }
+    "name": "@test/test",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/mdx": "^2.0.3",
+        "@types/react": "^18.0.26",
+        "@types/react-dom": "^18.0.9",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "socket.io": "^4.5.1",
+        "socket.io-client": "^4.5.1"
+    }
 }
