@@ -1,7 +1,8 @@
-import * as React from 'react';
+import React from 'react';
 
 export /*bundle*/
 function Page(): JSX.Element {
+    console.log('test sourcemaps')
     return (
         <>
             <div className="page__container">

@@ -16,7 +16,6 @@
   },
   "libraries": {
     "imports": [
-      "@beyond-js/kernel",
       "@beyond-js/local",
       "@beyond-js/backend"
     ]
@@ -26,8 +25,8 @@
       {
         "name": "node",
         "environment": "development",
-        "ssr": "",
         "platform": "node",
+        "maps": "external",
         "ports": {
           "bundles": 9090,
           "inspect": 9091

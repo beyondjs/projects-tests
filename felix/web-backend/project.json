@@ -25,6 +25,7 @@
         "platform": "web",
         "environment": "development",
         "backend": "backend",
+        "maps": "internal",
         "ports": {
           "bundles": 5050
         },

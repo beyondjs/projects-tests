@@ -21,5 +21,10 @@
         "*"
       ]
     }
+  },
+  "txt": {
+    "path": "txt",
+    "multilanguage": true,
+    "files": "*"
   }
 }

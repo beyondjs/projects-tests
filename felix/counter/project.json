@@ -39,7 +39,6 @@
         "name": "ssr",
         "platform": "ssr",
         "environment": "development",
-        "host": "http://localhost:6553",
         "ports": {
           "bundles": 6551,
           "http": 6552,

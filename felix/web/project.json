@@ -48,12 +48,9 @@
         "name": "web",
         "platform": "web",
         "environment": "development",
-        "maps": "internal",
+        "maps": "external",
         "ports": {
           "bundles": 8080
-        },
-        "minify": {
-          "css": true
         },
         "bundles": {
           "mode": "sjs"
