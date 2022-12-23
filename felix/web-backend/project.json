@@ -28,9 +28,6 @@
         "maps": "internal",
         "ports": {
           "bundles": 5050
-        },
-        "bundles": {
-          "mode": "sjs"
         }
       },
       {
@@ -42,9 +39,6 @@
           "bundles": 5051,
           "http": 5052,
           "inspect": 5053
-        },
-        "bundles": {
-          "mode": "sjs"
         }
       }
     ]
