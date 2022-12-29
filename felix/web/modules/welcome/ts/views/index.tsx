@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import {module} from "beyond_context";
 import {useTexts} from "@tests/web-app/use-texts";
 

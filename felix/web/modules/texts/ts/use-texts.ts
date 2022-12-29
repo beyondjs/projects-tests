@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import {CurrentTexts} from "@beyond-js/kernel/texts";
 
 interface IDocsValue {
