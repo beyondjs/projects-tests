@@ -12,17 +12,12 @@
   "modules": {
     "path": "./modules"
   },
-  "libraries": {
-    "imports": [
-      "@beyond-js/kernel",
-      "@beyond-js/local",
-      "@beyond-js/backend",
-      "@beyond-js/ssr",
-      "@beyond-js/widgets",
-      "@beyond-js/react-widgets",
-      "@beyond-js/vue-widgets",
-      "@beyond-js/svelte-widgets"
-    ]
+  "dependencies": {
+    "@beyond-js/ssr": "^0.1.1",
+    "@beyond-js/react-widgets": "^18.20.3"
+  },
+  "devDependencies": {
+    "@beyond-js/local": "^0.1.0"
   },
   "deployment": {
     "distributions": [
