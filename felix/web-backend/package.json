@@ -11,6 +11,7 @@
     "@beyond-js/local": "^0.1.1",
     "@beyond-js/kernel": "^0.1.5",
     "@beyond-js/react-widgets": "^18.20.4",
-    "@bgroup/ui": "^0.0.3"
+    "@bgroup/ui": "^0.0.3",
+    "sweetalert2": "^11.6.16"
   }
 }
