@@ -39,7 +39,9 @@
     "imports": [
       "@beyond-js/kernel",
       "@beyond-js/widgets",
-      "@beyond-js/react-widgets"
+      "@beyond-js/react-widgets",
+      "@beyond-js/svelte-widgets",
+      "@beyond-js/vue-widgets"
     ]
   },
   "deployment": {
