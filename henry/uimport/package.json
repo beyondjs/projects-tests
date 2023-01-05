@@ -1,7 +1,0 @@
-{
-  "name": "tests",
-  "version": "1.0.0",
-  "dependencies": {
-    "@beyond-js/counter-react-widget": "^1.0.4"
-  }
-}
