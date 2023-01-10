@@ -11,11 +11,11 @@ export /*bundle*/ const DocsContext = React.createContext<IDocsValue>(value);
 export /*bundle*/ const useDocsContext = () => React.useContext(DocsContext);
 
 export /*bundle*/
-function useTexts(moduleId): [boolean, object] {
+function useTexts(moduleSpecifier): [boolean, object] {
     const [ready, setReady] = React.useState(false);
     const [texts, setTexts] = React.useState({});
     React.useEffect((): any => {
-        const modelTexts = new CurrentTexts(moduleId);
+        const modelTexts = new CurrentTexts(moduleSpecifier);
         const triggerEvent = () => {
             setReady(modelTexts.ready);
             setTexts(modelTexts.value)

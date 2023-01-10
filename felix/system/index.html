@@ -4,23 +4,21 @@
     <title>My Script</title>
     <script src="https://unpkg.com/@beyond-js/kernel@0.1.1/vendor/s.js"></script>
     <script src="packages/require.js"></script>
+
+
     <script type="systemjs-importmap">
       {
         "imports": {
-            "@beyond-js/kernel/bundle": "./packages/@beyond-js/kernel/bundle/bundle.js",
-            "@beyond-js/kernel/core": "./packages/@beyond-js/kernel/core/core.js",
-            "@beyond-js/backend/client": "./packages/@beyond-js/backend/client/client.js",
-            "socket.io-parser": "./packages/socket.io-parser@4.2.1.js",
-            "socket.io-client": "./packages/socket.io-client@4.5.3.js",
-            "@socket.io/component-emitter": "./packages/@socket.io/component-emitter@3.1.0.js",
-            "engine.io-parser": "./packages/engine.io-parser@5.0.4.js",
-            "engine.io-client": "./packages/engine.io-client@6.2.3.js",
-            "@tests/code/auth": "./packages/@tests/code@1.0.0/auth.bridge.js",
-            "@tests/code/config": "./packages/@tests/code@1.0.0/config.js"
+            "@beyond-js/kernel/core": "https://unpkg.com/@beyond-js/kernel@0.2.0/core/core.sjs.js",
+            "@beyond-js/kernel/bundle": "https://unpkg.com/@beyond-js/kernel@0.2.0/bundle/bundle.sjs.js",
+            "socket.io-parser": "https://cdn.skypack.dev/socket.io-parser@4.2.1",
+            "@my-project/test/module": "http://localhost:3020/module.js",
+            "@my-project/test/config": "http://localhost:3020/config.js"
         }
       }
-
     </script>
+
+
     <script>
         window.__app_package = {
             specifier: '@tests/code',
