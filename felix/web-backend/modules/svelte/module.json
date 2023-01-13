@@ -1,0 +1,29 @@
+{
+  "name": "example-svelte",
+  "widget": {
+    "hmr": true,
+    "route": "/svelte",
+    "is": "page",
+    "element": {
+      "name": "example-svelte"
+    },
+    "sass": {
+      "path": "/svelte",
+      "files": [
+        "*"
+      ]
+    },
+    "svelte": {
+      "path": "/svelte",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/svelte",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}
