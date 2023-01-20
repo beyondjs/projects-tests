@@ -1,7 +1,3 @@
-const data = {
-    user: 'admin',
-    password: '123456.'
-}
 
 export /*actions*//*bundle*/
 class Auth {
