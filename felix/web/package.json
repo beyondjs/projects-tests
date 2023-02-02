@@ -1,10 +1,90 @@
 {
-  "name": "@tests/web-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC",
+  "scope": "tests",
+  "name": "web-app",
+  "title": "Aplicación de pruebas",
+  "description": "App con módulos básicos para pruebas en BeyondJS",
+  "layout": "main-layout",
+  "template": "template/template.json",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "es"
+    ]
+  },
+  "modules": {
+    "path": "./modules"
+  },
+  "static": {
+    "includes": [
+      "images"
+    ]
+  },
+  "cordova": {
+    "id": "id app",
+    "name": "name app",
+    "description": "description",
+    "author": {
+      "name": "ftovar",
+      "href": "href value",
+      "email": "felix.godo"
+    },
+    "version": {
+      "number": "1.0.0",
+      "code": "1.0.0"
+    }
+  },
+  "libraries": {
+    "imports": [
+      "@beyond-js/kernel",
+      "@beyond-js/widgets",
+      "@beyond-js/react-18-widgets",
+      "@beyond-js/svelte-widgets",
+      "@beyond-js/vue-widgets"
+    ]
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "environment": "development",
+        "maps": "external",
+        "ports": {
+          "bundles": 8080
+        },
+        "bundles": {
+          "mode": "sjs"
+        }
+      },
+      {
+        "name": "android",
+        "platform": "android",
+        "environment": "development",
+        "ports": {
+          "bundles": 6660,
+          "http": 6661,
+          "inspect": 6662
+        }
+      },
+      {
+        "name": "web.tsc",
+        "platform": "web",
+        "environment": "development",
+        "ports": {
+          "bundles": 8085
+        },
+        "bundles": {
+          "mode": "sjs"
+        },
+        "maps": "internal",
+        "ts": {
+          "compiler": "tsc"
+        }
+      }
+    ]
+  },
   "dependencies": {
     "socket.io-client": "^4.5.4",
     "react": "^18.2.0",

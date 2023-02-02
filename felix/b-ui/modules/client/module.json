@@ -1,0 +1,9 @@
+{
+  "name": "client",
+  "ts": {
+    "path": "ts",
+    "files": [
+      "*"
+    ]
+  }
+}

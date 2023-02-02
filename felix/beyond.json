@@ -1,0 +1,6 @@
+{
+  "applications": [
+    "b-ui/package.json",
+    "web-backend/package.json"
+  ]
+}

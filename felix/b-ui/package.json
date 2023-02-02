@@ -1,11 +1,50 @@
 {
-  "name": "@b-ui/b-ui",
+  "scope": "b-ui",
+  "name": "ui",
   "version": "1.0.0",
   "description": "",
   "author": "",
   "license": "ISC",
+  "title": "Beyond components to create web projects",
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+  "params": {},
+  "modules": {
+    "path": "./modules"
+  },
+  "deployment": {
+    "distributions": [
+      {
+        "name": "web",
+        "platform": "web",
+        "ports": {
+          "bundles": 3500
+        }
+      },
+      {
+        "name": "backend",
+        "platform": "backend",
+        "environment": "development",
+        "ports": {
+          "bundles": 3501,
+          "http": 3502,
+          "inspect": 3503
+        }
+      }
+    ]
+  },
   "dependencies": {
-    "@beyond-js/react-widgets": "^18.20.2",
+    "@beyond-js/react-widgets": "~18.20.2",
+    "@beyond-js/local": "~0.1.2",
+    "@beyond-js/backend": "~0.1.2",
     "swiper": "^8.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9"
   }
 }
