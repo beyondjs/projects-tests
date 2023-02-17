@@ -1,6 +1,9 @@
 import * as React from "react";
 import {Auth} from "@tests/web-backend-app/auth";
 import {routing} from "@beyond-js/kernel/routing";
+import config from "@tests/web-backend-app/config";
+
+console.log('config', config, config.package)
 
 interface IForm {
     disabled?: boolean;

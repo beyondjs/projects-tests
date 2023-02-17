@@ -1,5 +1,6 @@
 {
-  "applications": [
+  "packages": [
+    "node/package.json",
     "b-ui/package.json",
     "web-backend/package.json"
   ]

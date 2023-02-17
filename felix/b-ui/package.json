@@ -1,6 +1,5 @@
 {
-  "scope": "b-ui",
-  "name": "ui",
+  "name": "@b-ui/ui",
   "version": "1.0.0",
   "description": "",
   "author": "",

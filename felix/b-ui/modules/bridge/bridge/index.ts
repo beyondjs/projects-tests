@@ -1,7 +1,7 @@
 export /*actions*/ /*bundle*/
 class AuthBridge {
-    async login() {
-        console.log('bridge')
+    async login(params) {
+        console.log('bridge', params)
         return {msg: 'logged'};
     }
 }

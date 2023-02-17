@@ -1,7 +1,6 @@
 {
+  "name": "@tests/web-app",
   "version": "1.0.0",
-  "scope": "tests",
-  "name": "web-app",
   "title": "Aplicación de pruebas",
   "description": "App con módulos básicos para pruebas en BeyondJS",
   "layout": "main-layout",
