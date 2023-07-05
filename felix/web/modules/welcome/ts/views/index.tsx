@@ -6,7 +6,7 @@ export /*bundle*/
 function Page(): JSX.Element {
     const [ready, texts] = useTexts(module.specifier);
 
-    console.log(123, ready, texts)
+    // console.log(123, ready, texts)
 
     return (
         <>

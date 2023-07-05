@@ -1,0 +1,12 @@
+{
+  "name": "bridgee",
+  "bridge": {
+    "path": "bridge",
+    "files": [
+      "*"
+    ]
+  },
+  "platforms": [
+    "*"
+  ]
+}

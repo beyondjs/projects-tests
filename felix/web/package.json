@@ -38,6 +38,7 @@
     "imports": [
       "@beyond-js/kernel",
       "@beyond-js/widgets",
+      "@beyond-js/backend",
       "@beyond-js/react-18-widgets",
       "@beyond-js/svelte-widgets",
       "@beyond-js/vue-widgets"
@@ -54,7 +55,7 @@
           "bundles": 8080
         },
         "bundles": {
-          "mode": "sjs"
+          "mode": "amd"
         }
       },
       {

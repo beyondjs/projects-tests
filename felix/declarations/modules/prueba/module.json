@@ -1,0 +1,9 @@
+{
+  "name": "prueba",
+  "ts": {
+    "path": "ts",
+    "files": [
+      "*"
+    ]
+  }
+}

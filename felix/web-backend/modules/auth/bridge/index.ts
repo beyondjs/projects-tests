@@ -1,21 +1,20 @@
-interface IData {
-    user: string;
-    password: string;
-}
+import {BD} from "@tests/web-backend-app/bd";
 
-const data: IData = {
-    user: 'beyondjs',
-    password: 'B3yondJS'
-}
 export /*actions*//*bundle*/
 class Auth {
-    async login(user :string, password: string) {
-        if (user !== data.user || password !== data.password) {
-            return {status: true, error: "Invalid data" };
-        }
+    #bd;
 
-        return {status: true, data: {valid: true} }
+    constructor() {
+        console.log('constructor ')
+        this.#bd = new BD();
+    }
 
+    async login(user: string, password: string) {
+        console.log('login method')
+        return this.#bd.login(user, password);
+    }
+
+    test() {
+        console.log('test method')
     }
 }
-

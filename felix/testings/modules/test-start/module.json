@@ -1,0 +1,11 @@
+{
+  "name": "test-start",
+  "start": {
+    "ts": {
+      "path": "/start/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

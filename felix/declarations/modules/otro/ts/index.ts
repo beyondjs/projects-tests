@@ -1,0 +1,4 @@
+class Otro {
+    algo() {
+    }
+}

@@ -11,22 +11,35 @@
       "en"
     ]
   },
-  "params": {},
   "modules": {
-    "path": "./modules"
+    "path": "modules"
   },
+  "template": "node_modules/@beyond-js/felix-tpl/template/template.json",
   "deployment": {
     "distributions": [
       {
         "name": "web",
         "platform": "web",
+        "backend": "backend",
         "ports": {
           "bundles": 3500
         }
       },
       {
+        "name": "web-tsc",
+        "platform": "web",
+        "backend": "backend",
+        "ports": {
+          "bundles": 3501
+        },
+        "ts": {
+          "compiler": "tsc"
+        }
+      },
+      {
         "name": "backend",
         "platform": "backend",
+        "host": "backend-ui.com",
         "environment": "development",
         "ports": {
           "bundles": 3501,
@@ -37,10 +50,12 @@
     ]
   },
   "dependencies": {
-    "@beyond-js/react-widgets": "~18.20.2",
-    "@beyond-js/local": "~0.1.2",
-    "@beyond-js/backend": "~0.1.2",
-    "swiper": "^8.1.4"
+    "@beyond-js/local": "~0.1.3",
+    "@beyond-js/backend": "~0.1.5",
+    "@beyond-js/kernel": "~0.1.9",
+    "@beyond-js/react-18-widgets": "~0.0.5",
+    "swiper": "^8.1.4",
+    "socket.io-client": "^4.5.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
