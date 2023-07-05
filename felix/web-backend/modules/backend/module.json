@@ -1,8 +1,12 @@
 {
   "name": "start-backend",
-  "bundle": "start",
   "platforms": "backend",
-  "ts": {
-    "files": "*"
+  "start": {
+    "ts": {
+      "path": "/start/ts",
+      "files": [
+        "*"
+      ]
+    }
   }
 }

@@ -3,5 +3,5 @@
  */
 import {listen} from '@beyond-js/backend/listen';
 
-console.log('call listen backend')
+console.log('run listen web-backend-app')
 listen();

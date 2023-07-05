@@ -1,16 +1,13 @@
 {
-  "name": "welcome",
-  "platforms": [
-    "web"
-  ],
+  "name": "static-test",
   "widget": {
-    "is": "page",
-    "route": "/welcome",
     "element": {
-      "name": "welcome-page"
+      "name": "static-test"
     },
+    "is": "page",
+    "route": "/static-test",
     "sass": {
-      "path": "sass",
+      "path": "scss",
       "files": [
         "*"
       ]
@@ -21,5 +18,8 @@
         "*"
       ]
     }
+  },
+  "static": {
+    "includes": "./images"
   }
 }

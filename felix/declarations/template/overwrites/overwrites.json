@@ -1,0 +1,12 @@
+{
+  "@b-ui/ui/footer": {
+    "code": {
+      "sass": "form/styles.scss"
+    }
+  },
+  "static-test": {
+    "static": {
+      "images/jida.png": "images/jidaRed.png"
+    }
+  }
+}

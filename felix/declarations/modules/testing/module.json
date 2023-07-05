@@ -1,0 +1,10 @@
+{
+  "name": "testing",
+  "description": "pruebas",
+  "ts": {
+    "path": "ts",
+    "files": [
+      "*"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mdx-contents",
+  "code": {
+    "mdx": {
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

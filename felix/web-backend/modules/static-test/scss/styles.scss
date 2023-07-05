@@ -1,0 +1,11 @@
+.container {
+  padding: 50px;
+  background: url(./static-test/images/zelda.jpg);
+  background-size: cover;
+
+  .content {
+    color: #ffffff;
+    padding: 100px;
+    background: url(./images/jidaRed.png);
+  }
+}
