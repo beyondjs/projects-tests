@@ -73,7 +73,7 @@
 	"dependencies": {
 		"@beyond-js/backend": "~0.1.6",
 		"@beyond-js/kernel": "~0.1.9",
-		"@beyond-js/react-18-widgets": "~0.0.5",
+		"@beyond-js/react-18-widgets": "~1.0.1",
 		"@beyond-js/ssr": "~0.1.2",
 		"@beyond-js/svelte-widgets": "~0.1.0",
 		"@beyond-js/vue-widgets": "~0.1.0",

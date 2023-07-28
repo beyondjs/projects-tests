@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "widget": {
+    "route": "/hello",
+    "is": "page",
+    "scss": {
+      "path": "/widget/scss",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "hello-page"
+    }
+  }
+}
