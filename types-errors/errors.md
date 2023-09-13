@@ -12,9 +12,6 @@
     - example file: \modules\layouts\main\ts\views\index.tsx
     - [github issue](https://github.com/beyondjs/widgets/issues/2)
 
-
-
-
-3. Cache error related to tsconfig location: In the 'error-tsconfig' module, the '.tsconfig' file is currently located in the wrong position, causing a Babel error. To resolve this issue, move the '.tsconfig' file to the correct location, which is the same directory as the 'module.json' file. Note that BeyondJS may not recognize this fix immediately and may require cache clearing."
+4. Cache error related to tsconfig location: In the 'error-tsconfig' module, the '.tsconfig' file is currently located in the wrong position, causing a Babel error. To resolve this issue, move the '.tsconfig' file to the correct location, which is the same directory as the 'module.json' file. Note that BeyondJS may not recognize this fix immediately and may require cache clearing."
     - modules\layouts\error-tsconfig
 
