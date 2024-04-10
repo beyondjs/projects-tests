@@ -1,6 +1,9 @@
 [
-  "/feliapo1/package.json",
-  "/bbbb/package.json",
-  "/aaaaaa/package.json",
-  "web-backend/package.json"
+	"/widgets-querystring/package.json",
+	"../../@beyond-js/local/package.json",
+	"../../@beyond-js/backend/package.json",
+	"../../@beyond-js/kernel/package.json",
+	"../../@beyond-js/events/package.json",
+	"../../@beyond-js/widgets/package.json",
+	"../../@beyond-js/react-widgets/react-18/package.json"
 ]
