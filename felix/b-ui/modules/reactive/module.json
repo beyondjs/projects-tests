@@ -1,8 +1,0 @@
-{
-  "name": "reactive-model",
-  "ts": {
-    "files": [
-      "*"
-    ]
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "consumer",
-  "ts": {
-    "path": "ts",
-    "files": [
-      "*"
-    ]
-  }
-}

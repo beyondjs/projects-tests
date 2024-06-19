@@ -1,4 +1,0 @@
-class Otro {
-    algo() {
-    }
-}
