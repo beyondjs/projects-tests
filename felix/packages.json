@@ -1,4 +1,1 @@
-[
-  "/internal-dependency/package.json",
-  "/web-build/package.json"
-]
+["/web-app/package.json"]
